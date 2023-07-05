@@ -74,8 +74,8 @@ include('enviar_mensagem.php');
             padding: 0 !important;
         }
     </style>
-    <link rel='stylesheet' id='wp-block-library-css' href='https://bemprotegebahia.com.br/wp-includes/css/dist/block-library/style.min.css?ver=6.2' type='text/css' media='all' />
-    <link rel='stylesheet' id='classic-theme-styles-css' href='https://bemprotegebahia.com.br/wp-includes/css/classic-themes.min.css?ver=6.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min.css?ver=6.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='classic-theme-styles-css' href='wp-includes/css/classic-themes.min.css?ver=6.2' type='text/css' media='all' />
     <link rel="preload" href="wp-content/themes/hello-elementor/1c922998f0a5bcd6.css" as="style"/>
     <link rel="stylesheet" href="wp-content/themes/hello-elementor/1c922998f0a5bcd6.css" data-n-g=""/>
     <style id='global-styles-inline-css' type='text/css'>
@@ -425,8 +425,8 @@ include('enviar_mensagem.php');
     <link rel='stylesheet' id='elementor-pro-css' href='wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.6.5' type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-global-css' href='wp-content/uploads/elementor/css/global.css?ver=1683546698' type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-125-css' href='wp-content/uploads/elementor/css/post-125.css?ver=1683546699' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-16-css' href='https://bemprotegebahia.com.br/wp-content/uploads/elementor/css/post-16.css?ver=1683546699' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-28-css' href='https://bemprotegebahia.com.br/wp-content/uploads/elementor/css/post-28.css?ver=1683546699' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-16-css' href='wp-content/uploads/elementor/css/post-16.css?ver=1683546699' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-28-css' href='wp-content/uploads/elementor/css/post-28.css?ver=1683546699' type='text/css' media='all' />
     <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Jost%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2' type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-icons-shared-0-css' href='wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-icons-fa-solid-css' href='wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' type='text/css' media='all' />
@@ -552,7 +552,7 @@ include('enviar_mensagem.php');
         };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-content/plugins/chaty/js/cht-front-script.min.js?ver=3.0.61656363275' id='chaty-front-end-js'></script>
+    <script type='text/javascript' src='wp-content/plugins/chaty/js/cht-front-script.min.js?ver=3.0.61656363275' id='chaty-front-end-js'></script>
     <link rel="https://api.w.org/" href="https://bemprotegebahia.com.br/wp-json/" />
     <link rel="alternate" type="application/json" href="https://bemprotegebahia.com.br/wp-json/wp/v2/pages/125" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://bemprotegebahia.com.br/xmlrpc.php?rsd" />
@@ -700,10 +700,10 @@ include('enviar_mensagem.php');
         gtag('config', 'UA-228489731-1');
     </script> -->
     <!-- /end HFCM by 99 Robots -->
-    <link rel="icon" href="https://bemprotegebahia.com.br/wp-content/uploads/2022/05/Favicon-150x150.png" sizes="32x32" />
-    <link rel="icon" href="https://bemprotegebahia.com.br/wp-content/uploads/2022/05/Favicon.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="https://bemprotegebahia.com.br/wp-content/uploads/2022/05/Favicon.png" />
-    <meta name="msapplication-TileImage" content="https://bemprotegebahia.com.br/wp-content/uploads/2022/05/Favicon.png" />
+    <link rel="icon" href="wp-content/uploads/2022/05/Favicon-150x150.png" sizes="32x32" />
+    <link rel="icon" href="wp-content/uploads/2022/05/Favicon.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="wp-content/uploads/2022/05/Favicon.png" />
+    <meta name="msapplication-TileImage" content="wp-content/uploads/2022/05/Favicon.png" />
     <style type="text/css" id="wp-custom-css">
         .no-margin {
             margin: 0px !important;
@@ -843,7 +843,7 @@ include('enviar_mensagem.php');
                                         vertical-align: middle;
                                         display: inline-block
                                     }
-                                </style> <a href="https://bemprotegebahia.com.br">
+                                </style> <a href="#">
                                     <img width="800" height="262" src="wp-content/uploads/2022/05/Logo-Bem-Protege-1024x335.png" class="attachment-large size-large wp-image-24" alt="" loading="lazy" srcset="https://bemprotegebahia.com.br/wp-content/uploads/2022/05/Logo-Bem-Protege-1024x335.png 1024w, https://bemprotegebahia.com.br/wp-content/uploads/2022/05/Logo-Bem-Protege-300x98.png 300w, https://bemprotegebahia.com.br/wp-content/uploads/2022/05/Logo-Bem-Protege-768x251.png 768w, https://bemprotegebahia.com.br/wp-content/uploads/2022/05/Logo-Bem-Protege-1536x502.png 1536w, https://bemprotegebahia.com.br/wp-content/uploads/2022/05/Logo-Bem-Protege-2048x670.png 2048w" sizes="(max-width: 800px) 100vw, 800px" /> </a>
                             </div>
                         </div>
@@ -858,11 +858,11 @@ include('enviar_mensagem.php');
                                     <ul id="menu-1-d28b932" class="elementor-nav-menu">
                                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-21"><a href="#" class="elementor-item elementor-item-anchor">Proteção Veicular</a>
                                             <ul class="sub-menu elementor-nav-menu--dropdown">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255"><a href="https://bemprotegebahia.com.br/protecao-para-motocicletas/" class="elementor-sub-item">Proteção para Motocicletas</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-254"><a href="https://bemprotegebahia.com.br/protecao-para-carros/" class="elementor-sub-item">Proteção para Carros</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253"><a href="https://bemprotegebahia.com.br/protecao-para-caminhoes/" class="elementor-sub-item">Proteção para Caminhões</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="https://bemprotegebahia.com.br/protecao-para-vans/" class="elementor-sub-item">Proteção para Vans</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="https://bemprotegebahia.com.br/protecao-para-pick-ups/" class="elementor-sub-item">Proteção para Pick-ups</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255"><a href="#protecao-veicular" class="elementor-sub-item">Proteção para Motocicletas</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-254"><a href="#protecao-veicular" class="elementor-sub-item">Proteção para Carros</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253"><a href="#protecao-veicular" class="elementor-sub-item">Proteção para Caminhões</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="#protecao-veicular" class="elementor-sub-item">Proteção para Vans</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="#protecao-veicular" class="elementor-sub-item">Proteção para Pick-ups</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="#" class="elementor-item">Cotação</a></li>
@@ -877,17 +877,17 @@ include('enviar_mensagem.php');
                                     <ul id="menu-2-d28b932" class="elementor-nav-menu">
                                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-21"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">Proteção Veicular</a>
                                             <ul class="sub-menu elementor-nav-menu--dropdown">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255"><a href="https://bemprotegebahia.com.br/protecao-para-motocicletas/" class="elementor-sub-item" tabindex="-1">Proteção para Motocicletas</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-254"><a href="https://bemprotegebahia.com.br/protecao-para-carros/" class="elementor-sub-item" tabindex="-1">Proteção para Carros</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253"><a href="https://bemprotegebahia.com.br/protecao-para-caminhoes/" class="elementor-sub-item" tabindex="-1">Proteção para Caminhões</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="https://bemprotegebahia.com.br/protecao-para-vans/" class="elementor-sub-item" tabindex="-1">Proteção para Vans</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="https://bemprotegebahia.com.br/protecao-para-pick-ups/" class="elementor-sub-item" tabindex="-1">Proteção para Pick-ups</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255"><a href="#protecao-veicular" class="elementor-sub-item" tabindex="-1">Proteção para Motocicletas</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-254"><a href="#protecao-veicular" class="elementor-sub-item" tabindex="-1">Proteção para Carros</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253"><a href="#protecao-veicular" class="elementor-sub-item" tabindex="-1">Proteção para Caminhões</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="#protecao-veicular" class="elementor-sub-item" tabindex="-1">Proteção para Vans</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="#protecao-veicular" class="elementor-sub-item" tabindex="-1">Proteção para Pick-ups</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-390"><a href="https://bemprotegebahia.com.br/consultor" class="elementor-item" tabindex="-1">Ser Consultor</a></li>
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="http://novacotacao.bemprotege.com.br/?id=mq6gjyDR" class="elementor-item" tabindex="-1">Cotação</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-287"><a href="https://bemprotegebahia.com.br/coberturas/" class="elementor-item" tabindex="-1">Coberturas</a></li>
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-22"><a href="https://bemprotegebahia.com.br/#contato" aria-current="page" class="elementor-item elementor-item-anchor" tabindex="-1">Contato</a></li>
+                                        <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-390"><a href="https://bemprotegebahia.com.br/consultor" class="elementor-item" tabindex="-1">Ser Consultor</a></li> -->
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="#" class="elementor-item" tabindex="-1">Cotação</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-287"><a href="#" class="elementor-item" tabindex="-1">Coberturas</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-22"><a href="#contato" aria-current="page" class="elementor-item elementor-item-anchor" tabindex="-1">Contato</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -1966,18 +1966,18 @@ include('enviar_mensagem.php');
     </div>
     <!-- FIM FOOTER -->
 
-    <link rel='stylesheet' id='e-animations-css' href='https://bemprotegebahia.com.br/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.10.0' type='text/css' media='all' />
-    <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=1.0.0' id='hello-theme-frontend-js'></script>
-    <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1' id='smartmenus-js'></script>
-    <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
-    <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.6.5' id='elementor-pro-webpack-runtime-js'></script>
-    <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.0' id='elementor-webpack-runtime-js'></script>
-    <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.10.0' id='elementor-frontend-modules-js'></script>
-    <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2' id='wp-polyfill-inert-js'></script>
-    <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11' id='regenerator-runtime-js'></script>
-    <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
-    <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5' id='wp-hooks-js'></script>
-    <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae' id='wp-i18n-js'></script>
+    <link rel='stylesheet' id='e-animations-css' href='wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.10.0' type='text/css' media='all' />
+    <script type='text/javascript' src='wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=1.0.0' id='hello-theme-frontend-js'></script>
+    <script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1' id='smartmenus-js'></script>
+    <script type='text/javascript' src='wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+    <script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.6.5' id='elementor-pro-webpack-runtime-js'></script>
+    <script type='text/javascript' src='wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.0' id='elementor-webpack-runtime-js'></script>
+    <script type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.10.0' id='elementor-frontend-modules-js'></script>
+    <script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2' id='wp-polyfill-inert-js'></script>
+    <script type='text/javascript' src='wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11' id='regenerator-runtime-js'></script>
+    <script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+    <script type='text/javascript' src='wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5' id='wp-hooks-js'></script>
+    <script type='text/javascript' src='wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae' id='wp-i18n-js'></script>
     <script type='text/javascript' id='wp-i18n-js-after'>
         wp.i18n.setLocaleData({
             'text direction\u0004ltr': ['ltr']
