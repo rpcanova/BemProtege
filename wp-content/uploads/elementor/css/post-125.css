@@ -1,0 +1,1142 @@
+.elementor-125 .elementor-element.elementor-element-f7a71a5>.elementor-container>.elementor-column>.elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-125 .elementor-element.elementor-element-f7a71a5:not(.elementor-motion-effects-element-type-background),
+.elementor-125 .elementor-element.elementor-element-f7a71a5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #00E1FC;
+}
+
+.elementor-125 .elementor-element.elementor-element-f7a71a5>.elementor-background-overlay {
+    background-color: transparent;
+    background-image: linear-gradient(250deg, var(--e-global-color-primary) 0%, var(--e-global-color-34f4494) 100%);
+    opacity: 0.6;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-125 .elementor-element.elementor-element-f7a71a5 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 20px 0px 20px 0px;
+}
+
+.elementor-125 .elementor-element.elementor-element-8b0d710>.elementor-widget-wrap>.elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {
+    margin-bottom: 10px;
+}
+
+.elementor-125 .elementor-element.elementor-element-fd3514d {
+    text-align: left;
+}
+
+.elementor-125 .elementor-element.elementor-element-fd3514d .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.elementor-125 .elementor-element.elementor-element-1488438 {
+    text-align: left;
+}
+
+.elementor-125 .elementor-element.elementor-element-1488438 .elementor-heading-title {
+    color: #00DCFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.elementor-125 .elementor-element.elementor-element-0be7993 {
+    text-align: left;
+}
+
+.elementor-125 .elementor-element.elementor-element-0be7993 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 1.1em;
+}
+
+.elementor-125 .elementor-element.elementor-element-b9d50bf {
+    text-align: left;
+}
+
+.elementor-125 .elementor-element.elementor-element-b9d50bf .elementor-heading-title {
+    color: #00DCFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.elementor-125 .elementor-element.elementor-element-f23843b {
+    width: auto;
+    max-width: auto;
+}
+
+.elementor-125 .elementor-element.elementor-element-ffae297>.elementor-widget-container {
+    margin: 0px 0px 0px 10px;
+}
+
+.elementor-125 .elementor-element.elementor-element-ffae297 {
+    width: auto;
+    max-width: auto;
+}
+
+.elementor-bc-flex-widget .elementor-125 .elementor-element.elementor-element-81a404b.elementor-column .elementor-widget-wrap {
+    align-items: flex-end;
+}
+
+.elementor-125 .elementor-element.elementor-element-81a404b.elementor-column.elementor-element[data-element_type="column"]>.elementor-widget-wrap.elementor-element-populated {
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.elementor-125 .elementor-element.elementor-element-81a404b.elementor-column>.elementor-widget-wrap {
+    justify-content: center;
+}
+
+.elementor-125 .elementor-element.elementor-element-81a404b>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-125 .elementor-element.elementor-element-e5d45ee {
+    text-align: left;
+}
+
+.elementor-125 .elementor-element.elementor-element-e5d45ee>.elementor-widget-container {
+    margin: 0px 0px -24px 0px;
+}
+
+.elementor-125 .elementor-element.elementor-element-bf85754:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+.elementor-125 .elementor-element.elementor-element-bf85754>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+}
+
+.elementor-125 .elementor-element.elementor-element-bf85754>.elementor-element-populated,
+.elementor-125 .elementor-element.elementor-element-bf85754>.elementor-element-populated>.elementor-background-overlay,
+.elementor-125 .elementor-element.elementor-element-bf85754>.elementor-background-slideshow {
+    border-radius: 20px 20px 20px 20px;
+}
+
+.elementor-125 .elementor-element.elementor-element-bf85754>.elementor-element-populated {
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 20px 0px 20px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+    padding: 30px 30px 30px 30px;
+}
+
+.elementor-125 .elementor-element.elementor-element-bf85754>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-125 .elementor-element.elementor-element-0592e4b {
+    text-align: center;
+}
+
+.elementor-125 .elementor-element.elementor-element-0592e4b .elementor-heading-title {
+    color: var(--e-global-color-primary);
+    font-family: "Jost", Sans-serif;
+    font-size: 27px;
+    font-weight: 900;
+    text-transform: uppercase;
+    /* font-style: italic; */
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .elementor-field-group {
+    padding-right: calc(10px/2);
+    padding-left: calc(10px/2);
+    margin-bottom: 10px;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .elementor-form-fields-wrapper {
+    margin-left: calc(-10px/2);
+    margin-right: calc(-10px/2);
+    margin-bottom: -10px;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .elementor-field-group.recaptcha_v3-bottomleft,
+.elementor-125 .elementor-element.elementor-global-309 .elementor-field-group.recaptcha_v3-bottomright {
+    margin-bottom: 0;
+}
+
+body.rtl .elementor-125 .elementor-element.elementor-global-309 .elementor-labels-inline .elementor-field-group>label {
+    padding-left: 8px;
+}
+
+body:not(.rtl) .elementor-125 .elementor-element.elementor-global-309 .elementor-labels-inline .elementor-field-group>label {
+    padding-right: 8px;
+}
+
+body .elementor-125 .elementor-element.elementor-global-309 .elementor-labels-above .elementor-field-group>label {
+    padding-bottom: 8px;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .elementor-field-group>label,
+.elementor-125 .elementor-element.elementor-global-309 .elementor-field-subgroup label {
+    color: var(--e-global-color-accent);
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .elementor-field-group>label {
+    font-family: "Jost", Sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .elementor-field-type-html {
+    padding-bottom: 0px;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .elementor-field-group .elementor-field,
+.elementor-125 .elementor-element.elementor-global-309 .elementor-field-subgroup label {
+    font-family: "Jost", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .elementor-field-group:not(.elementor-field-type-upload) .elementor-field:not(.elementor-select-wrapper) {
+    background-color: #F4F4F4;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 19px 19px 19px 19px;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .elementor-field-group .elementor-select-wrapper select {
+    background-color: #F4F4F4;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 19px 19px 19px 19px;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .elementor-button {
+    font-family: "Jost", Sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px 30px 15px 30px;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .e-form__buttons__wrapper__button-next {
+    color: #ffffff;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .elementor-button[type="submit"] {
+    color: #ffffff;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .elementor-button[type="submit"] svg * {
+    fill: #ffffff;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .e-form__buttons__wrapper__button-previous {
+    color: #ffffff;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .e-form__buttons__wrapper__button-next:hover {
+    color: #ffffff;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .elementor-button[type="submit"]:hover {
+    color: #ffffff;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .elementor-button[type="submit"]:hover svg * {
+    fill: #ffffff;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 .e-form__buttons__wrapper__button-previous:hover {
+    color: #ffffff;
+}
+
+.elementor-125 .elementor-element.elementor-global-309 {
+    --e-form-steps-indicators-spacing: 20px;
+    --e-form-steps-indicator-padding: 30px;
+    --e-form-steps-indicator-inactive-secondary-color: #ffffff;
+    --e-form-steps-indicator-active-secondary-color: #ffffff;
+    --e-form-steps-indicator-completed-secondary-color: #ffffff;
+    --e-form-steps-divider-width: 1px;
+    --e-form-steps-divider-gap: 10px;
+}
+
+.elementor-125 .elementor-element.elementor-element-8b3bc6f:not(.elementor-motion-effects-element-type-background),
+.elementor-125 .elementor-element.elementor-element-8b3bc6f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+}
+
+.elementor-125 .elementor-element.elementor-element-8b3bc6f {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 80px 0px 80px 0px;
+}
+
+.elementor-125 .elementor-element.elementor-element-8b3bc6f>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-125 .elementor-element.elementor-element-646bc5c6 {
+    text-align: center;
+}
+
+.elementor-125 .elementor-element.elementor-element-646bc5c6 .elementor-heading-title {
+    color: var(--e-global-color-accent);
+    font-family: "Jost", Sans-serif;
+    font-size: 43px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.elementor-125 .elementor-element.elementor-element-70e91b55 .elementor-flip-box__front {
+    background-color: var(--e-global-color-primary);
+    background-image: url("https://bemprotegebahia.com.br/wp-content/uploads/2022/05/moto-1280w.webp");
+    background-position: center center;
+    background-size: cover;
+}
+
+.elementor-125 .elementor-element.elementor-element-70e91b55 .elementor-flip-box__back {
+    background-color: #F8F8F8;
+}
+
+.elementor-125 .elementor-element.elementor-element-70e91b55 .elementor-flip-box {
+    height: 380px;
+}
+
+.elementor-125 .elementor-element.elementor-element-70e91b55 .elementor-flip-box__layer,
+.elementor-125 .elementor-element.elementor-element-70e91b55 .elementor-flip-box__layer__overlay {
+    border-radius: 10px;
+}
+
+.elementor-125 .elementor-element.elementor-element-70e91b55 .elementor-flip-box__front .elementor-flip-box__layer__overlay {
+    text-align: center;
+}
+
+.elementor-125 .elementor-element.elementor-element-70e91b55 .elementor-flip-box__back .elementor-flip-box__layer__overlay {
+    text-align: left;
+}
+
+.elementor-125 .elementor-element.elementor-element-70e91b55 .elementor-flip-box__button {
+    margin-left: 0;
+    color: #FFFFFF;
+    background-color: var(--e-global-color-primary);
+    border-color: var(--e-global-color-primary);
+    border-width: 2px;
+    border-radius: 8px;
+}
+
+.elementor-125 .elementor-element.elementor-element-70e91b55 .elementor-flip-box__back .elementor-flip-box__layer__title {
+    color: var(--e-global-color-accent);
+    font-family: "Jost", Sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.elementor-125 .elementor-element.elementor-element-70e91b55 .elementor-flip-box__back .elementor-flip-box__layer__description {
+    color: var(--e-global-color-primary);
+    font-family: "Jost", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.elementor-125 .elementor-element.elementor-element-70e91b55 .elementor-flip-box__button:hover {
+    color: var(--e-global-color-primary);
+    background-color: #02010100;
+    border-color: var(--e-global-color-primary);
+}
+
+.elementor-125 .elementor-element.elementor-element-5ff8ea84 .elementor-flip-box__front {
+    background-color: var(--e-global-color-primary);
+    background-image: url("https://bemprotegebahia.com.br/wp-content/uploads/2022/05/carro-1280w.webp");
+    background-position: center center;
+    background-size: cover;
+}
+
+.elementor-125 .elementor-element.elementor-element-5ff8ea84 .elementor-flip-box__back {
+    background-color: #F8F8F8;
+}
+
+.elementor-125 .elementor-element.elementor-element-5ff8ea84 .elementor-flip-box {
+    height: 380px;
+}
+
+.elementor-125 .elementor-element.elementor-element-5ff8ea84 .elementor-flip-box__layer,
+.elementor-125 .elementor-element.elementor-element-5ff8ea84 .elementor-flip-box__layer__overlay {
+    border-radius: 10px;
+}
+
+.elementor-125 .elementor-element.elementor-element-5ff8ea84 .elementor-flip-box__front .elementor-flip-box__layer__overlay {
+    text-align: center;
+}
+
+.elementor-125 .elementor-element.elementor-element-5ff8ea84 .elementor-flip-box__back .elementor-flip-box__layer__overlay {
+    text-align: left;
+}
+
+.elementor-125 .elementor-element.elementor-element-5ff8ea84 .elementor-flip-box__button {
+    margin-left: 0;
+    color: #FFFFFF;
+    background-color: var(--e-global-color-primary);
+    border-color: var(--e-global-color-primary);
+    border-width: 2px;
+    border-radius: 8px;
+}
+
+.elementor-125 .elementor-element.elementor-element-5ff8ea84 .elementor-flip-box__back .elementor-flip-box__layer__title {
+    color: var(--e-global-color-accent);
+    font-family: "Jost", Sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.elementor-125 .elementor-element.elementor-element-5ff8ea84 .elementor-flip-box__back .elementor-flip-box__layer__description {
+    color: var(--e-global-color-primary);
+    font-family: "Jost", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.elementor-125 .elementor-element.elementor-element-5ff8ea84 .elementor-flip-box__button:hover {
+    color: var(--e-global-color-primary);
+    background-color: #02010100;
+    border-color: var(--e-global-color-primary);
+}
+
+.elementor-125 .elementor-element.elementor-element-6f92d4a8 .elementor-flip-box__front {
+    background-color: var(--e-global-color-primary);
+    background-image: url("https://bemprotegebahia.com.br/wp-content/uploads/2022/05/caminhao-1280w.webp");
+    background-position: center center;
+    background-size: cover;
+}
+
+.elementor-125 .elementor-element.elementor-element-6f92d4a8 .elementor-flip-box__back {
+    background-color: #F8F8F8;
+}
+
+.elementor-125 .elementor-element.elementor-element-6f92d4a8 .elementor-flip-box {
+    height: 380px;
+}
+
+.elementor-125 .elementor-element.elementor-element-6f92d4a8 .elementor-flip-box__layer,
+.elementor-125 .elementor-element.elementor-element-6f92d4a8 .elementor-flip-box__layer__overlay {
+    border-radius: 10px;
+}
+
+.elementor-125 .elementor-element.elementor-element-6f92d4a8 .elementor-flip-box__front .elementor-flip-box__layer__overlay {
+    text-align: center;
+}
+
+.elementor-125 .elementor-element.elementor-element-6f92d4a8 .elementor-flip-box__back .elementor-flip-box__layer__overlay {
+    text-align: left;
+}
+
+.elementor-125 .elementor-element.elementor-element-6f92d4a8 .elementor-flip-box__button {
+    margin-left: 0;
+    color: #FFFFFF;
+    background-color: var(--e-global-color-primary);
+    border-color: var(--e-global-color-primary);
+    border-width: 2px;
+    border-radius: 8px;
+}
+
+.elementor-125 .elementor-element.elementor-element-6f92d4a8 .elementor-flip-box__back .elementor-flip-box__layer__title {
+    color: var(--e-global-color-accent);
+    font-family: "Jost", Sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.elementor-125 .elementor-element.elementor-element-6f92d4a8 .elementor-flip-box__back .elementor-flip-box__layer__description {
+    color: var(--e-global-color-primary);
+    font-family: "Jost", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.elementor-125 .elementor-element.elementor-element-6f92d4a8 .elementor-flip-box__button:hover {
+    color: var(--e-global-color-primary);
+    background-color: #02010100;
+    border-color: var(--e-global-color-primary);
+}
+
+.elementor-125 .elementor-element.elementor-element-1102a3db {
+    text-align: center;
+}
+
+.elementor-125 .elementor-element.elementor-element-1102a3db .elementor-heading-title {
+    color: var(--e-global-color-secondary);
+    font-family: "Jost", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.elementor-125 .elementor-element.elementor-element-1102a3db>.elementor-widget-container {
+    margin: 30px 0px 0px 0px;
+}
+
+.elementor-125 .elementor-element.elementor-element-55f8dbe:not(.elementor-motion-effects-element-type-background),
+.elementor-125 .elementor-element.elementor-element-55f8dbe>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: var(--e-global-color-accent);
+}
+
+.elementor-125 .elementor-element.elementor-element-55f8dbe {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 20px 0px 20px 0px;
+}
+
+.elementor-125 .elementor-element.elementor-element-55f8dbe>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-125 .elementor-element.elementor-element-0398a16 {
+    text-align: center;
+}
+
+.elementor-125 .elementor-element.elementor-element-0398a16 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 1.1em;
+}
+
+.elementor-125 .elementor-element.elementor-element-ee7fe1c .elementor-button {
+    font-family: "Jost", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    fill: var(--e-global-color-accent);
+    color: var(--e-global-color-accent);
+    background-color: #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 15px 30px 15px 30px;
+}
+
+.elementor-125 .elementor-element.elementor-element-7bc72e2>.elementor-container {
+    min-height: 400px;
+}
+
+.elementor-125 .elementor-element.elementor-element-7bc72e2:not(.elementor-motion-effects-element-type-background),
+.elementor-125 .elementor-element.elementor-element-7bc72e2>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: transparent;
+    background-image: linear-gradient(160deg, #00E1FC 0%, var(--e-global-color-34f4494) 100%);
+}
+
+.elementor-125 .elementor-element.elementor-element-7bc72e2 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 80px 0px 80px 0px;
+}
+
+.elementor-125 .elementor-element.elementor-element-7bc72e2>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-125 .elementor-element.elementor-element-aca9c6c>.elementor-widget-container {
+    margin: 0px 100px 0px 0px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 20px 20px 30px 0px rgba(2.999999999999998, 4.000000000000008, 40.99999999999999, 0.1);
+}
+
+.elementor-125 .elementor-element.elementor-element-1fcf9cb {
+    text-align: left;
+}
+
+.elementor-125 .elementor-element.elementor-element-1fcf9cb .elementor-heading-title {
+    color: var(--e-global-color-accent);
+    font-family: "Jost", Sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.elementor-125 .elementor-element.elementor-element-f000144 {
+    text-align: left;
+}
+
+.elementor-125 .elementor-element.elementor-element-f000144 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 1.1em;
+}
+
+.elementor-125 .elementor-element.elementor-element-9c66d2e .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(10px/2);
+}
+
+.elementor-125 .elementor-element.elementor-element-9c66d2e .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+    margin-top: calc(10px/2);
+}
+
+.elementor-125 .elementor-element.elementor-element-9c66d2e .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+    margin-right: calc(10px/2);
+    margin-left: calc(10px/2);
+}
+
+.elementor-125 .elementor-element.elementor-element-9c66d2e .elementor-icon-list-items.elementor-inline-items {
+    margin-right: calc(-10px/2);
+    margin-left: calc(-10px/2);
+}
+
+body.rtl .elementor-125 .elementor-element.elementor-element-9c66d2e .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    left: calc(-10px/2);
+}
+
+body:not(.rtl) .elementor-125 .elementor-element.elementor-element-9c66d2e .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    right: calc(-10px/2);
+}
+
+.elementor-125 .elementor-element.elementor-element-9c66d2e .elementor-icon-list-icon i {
+    color: #FFFFFF;
+}
+
+.elementor-125 .elementor-element.elementor-element-9c66d2e .elementor-icon-list-icon svg {
+    fill: #FFFFFF;
+}
+
+.elementor-125 .elementor-element.elementor-element-9c66d2e {
+    --e-icon-list-icon-size: 20px;
+}
+
+.elementor-125 .elementor-element.elementor-element-9c66d2e .elementor-icon-list-text {
+    color: #FFFFFF;
+}
+
+.elementor-125 .elementor-element.elementor-element-9c66d2e .elementor-icon-list-item>.elementor-icon-list-text,
+.elementor-125 .elementor-element.elementor-element-9c66d2e .elementor-icon-list-item>a {
+    font-family: "Jost", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-125 .elementor-element.elementor-element-450e305 .elementor-button {
+    font-family: "Jost", Sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--e-global-color-accent);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 15px 30px 15px 30px;
+}
+
+.elementor-125 .elementor-element.elementor-element-3a12c21:not(.elementor-motion-effects-element-type-background),
+.elementor-125 .elementor-element.elementor-element-3a12c21>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+}
+
+.elementor-125 .elementor-element.elementor-element-3a12c21 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 80px 0px 80px 0px;
+}
+
+.elementor-125 .elementor-element.elementor-element-3a12c21>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-125 .elementor-element.elementor-element-ba646b0>.elementor-element-populated {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-125 .elementor-element.elementor-element-3230dd7>.elementor-container>.elementor-column>.elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-125 .elementor-element.elementor-element-3230dd7:not(.elementor-motion-effects-element-type-background),
+.elementor-125 .elementor-element.elementor-element-3230dd7>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #00EF65;
+}
+
+.elementor-125 .elementor-element.elementor-element-3230dd7,
+.elementor-125 .elementor-element.elementor-element-3230dd7>.elementor-background-overlay {
+    border-radius: 20px 20px 20px 20px;
+}
+
+.elementor-125 .elementor-element.elementor-element-3230dd7 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 40px 40px 40px 40px;
+}
+
+.elementor-125 .elementor-element.elementor-element-3230dd7>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-125 .elementor-element.elementor-element-255f613>.elementor-widget-wrap>.elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {
+    margin-bottom: 10px;
+}
+
+.elementor-125 .elementor-element.elementor-element-255f613>.elementor-element-populated {
+    margin: 0px 160px 0px 0px;
+    --e-column-margin-right: 160px;
+    --e-column-margin-left: 0px;
+}
+
+.elementor-125 .elementor-element.elementor-element-fb0eab8 {
+    text-align: left;
+}
+
+.elementor-125 .elementor-element.elementor-element-fb0eab8 .elementor-heading-title {
+    color: var(--e-global-color-accent);
+    font-family: "Jost", Sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.elementor-125 .elementor-element.elementor-element-f8aa4aa {
+    text-align: left;
+}
+
+.elementor-125 .elementor-element.elementor-element-f8aa4aa .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.elementor-125 .elementor-element.elementor-element-703e48c>.elementor-widget-wrap>.elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {
+    margin-bottom: 15px;
+}
+
+.elementor-125 .elementor-element.elementor-element-ba1c8f8 .elementor-button {
+    font-family: "Jost", Sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--e-global-color-accent);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 15px 30px 15px 30px;
+}
+
+.elementor-125 .elementor-element.elementor-element-147121e {
+    text-align: center;
+}
+
+.elementor-125 .elementor-element.elementor-element-147121e .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.elementor-125 .elementor-element.elementor-element-233f447:not(.elementor-motion-effects-element-type-background),
+.elementor-125 .elementor-element.elementor-element-233f447>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("https://bemprotegebahia.com.br/wp-content/uploads/2022/05/bd.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.elementor-125 .elementor-element.elementor-element-233f447>.elementor-background-overlay {
+    background-color: #FFFFFF;
+    opacity: 0.75;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-125 .elementor-element.elementor-element-233f447 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 80px 0px 80px 0px;
+}
+
+.elementor-125 .elementor-element.elementor-element-425032a {
+    text-align: center;
+}
+
+.elementor-125 .elementor-element.elementor-element-425032a .elementor-heading-title {
+    color: var(--e-global-color-accent);
+    font-family: "Jost", Sans-serif;
+    font-size: 43px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.elementor-125 .elementor-element.elementor-element-00ed26c>.elementor-container {
+    max-width: 800px;
+}
+
+.elementor-125 .elementor-element.elementor-element-a2ef449>.elementor-widget-container {
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.elementor-125 .elementor-element.elementor-element-45fad1a .elementor-button {
+    font-family: "Jost", Sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--e-global-color-accent);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 15px 30px 15px 30px;
+}
+
+.elementor-125 .elementor-element.elementor-element-73cfdaf {
+    padding: 80px 0px 80px 0px;
+}
+
+.elementor-125 .elementor-element.elementor-element-47df376 {
+    text-align: center;
+}
+
+.elementor-125 .elementor-element.elementor-element-47df376 .elementor-heading-title {
+    color: var(--e-global-color-accent);
+    font-family: "Jost", Sans-serif;
+    font-size: 43px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.elementor-125 .elementor-element.elementor-element-b05a221 .elementor-testimonial__text {
+    color: var(--e-global-color-secondary);
+    font-family: "Jost", Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.elementor-125 .elementor-element.elementor-element-b05a221 .elementor-testimonial__name {
+    color: var(--e-global-color-secondary);
+    font-family: "Jost", Sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.elementor-125 .elementor-element.elementor-element-b05a221 .elementor-testimonial__title {
+    font-family: "Jost", Sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.elementor-125 .elementor-element.elementor-element-b05a221 .elementor-swiper-button {
+    font-size: 20px;
+}
+
+.elementor-125 .elementor-element.elementor-element-b05a221 .swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
+    background-color: var(--e-global-color-primary);
+    opacity: var(--e-global-color-primary);
+}
+
+.elementor-125 .elementor-element.elementor-element-b05a221 .swiper-pagination-bullet-active,
+.elementor-125 .elementor-element.elementor-element-b05a221 .swiper-pagination-progressbar-fill {
+    background-color: var(--e-global-color-accent);
+}
+
+.elementor-125 .elementor-element.elementor-element-b05a221 .swiper-pagination-fraction {
+    color: var(--e-global-color-accent);
+}
+
+.elementor-125 .elementor-element.elementor-element-8f5422f>.elementor-container>.elementor-column>.elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-125 .elementor-element.elementor-element-8f5422f:not(.elementor-motion-effects-element-type-background),
+.elementor-125 .elementor-element.elementor-element-8f5422f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("https://bemprotegebahia.com.br/wp-content/uploads/2022/05/bd.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.elementor-125 .elementor-element.elementor-element-8f5422f>.elementor-background-overlay {
+    background-color: #FFFFFF;
+    opacity: 0.75;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-125 .elementor-element.elementor-element-8f5422f {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 80px 0px 80px 0px;
+}
+
+.elementor-125 .elementor-element.elementor-element-652efff>.elementor-element-populated {
+    margin: 0px 160px 0px 0px;
+    --e-column-margin-right: 160px;
+    --e-column-margin-left: 0px;
+}
+
+.elementor-125 .elementor-element.elementor-element-05a915d {
+    text-align: left;
+}
+
+.elementor-125 .elementor-element.elementor-element-05a915d .elementor-heading-title {
+    color: var(--e-global-color-accent);
+    font-family: "Jost", Sans-serif;
+    font-size: 43px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.elementor-125 .elementor-element.elementor-element-b7ef6e3 {
+    text-align: left;
+}
+
+.elementor-125 .elementor-element.elementor-element-b7ef6e3 .elementor-heading-title {
+    color: var(--e-global-color-primary);
+    font-family: "Jost", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.3em;
+}
+
+.elementor-125 .elementor-element.elementor-element-5a6c314 {
+    --e-image-carousel-slides-to-show: 5;
+    z-index: 0;
+}
+
+.elementor-125 .elementor-element.elementor-element-75b9e00 .elementor-button {
+    font-family: "Jost", Sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--e-global-color-accent);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 15px 30px 15px 30px;
+}
+
+.elementor-125 .elementor-element.elementor-element-1dde63e>.elementor-container {
+    max-width: 700px;
+    min-height: 400px;
+}
+
+.elementor-125 .elementor-element.elementor-element-1dde63e:not(.elementor-motion-effects-element-type-background),
+.elementor-125 .elementor-element.elementor-element-1dde63e>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: transparent;
+    background-image: linear-gradient(160deg, #00E1FC 0%, var(--e-global-color-34f4494) 100%);
+}
+
+.elementor-125 .elementor-element.elementor-element-1dde63e {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 80px 0px 80px 0px;
+}
+
+.elementor-125 .elementor-element.elementor-element-1dde63e>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-125 .elementor-element.elementor-element-68c2850 {
+    text-align: center;
+}
+
+.elementor-125 .elementor-element.elementor-element-68c2850 .elementor-heading-title {
+    color: var(--e-global-color-accent);
+    font-family: "Jost", Sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.elementor-125 .elementor-element.elementor-element-87f9d93 {
+    text-align: center;
+}
+
+.elementor-125 .elementor-element.elementor-element-87f9d93 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 1.1em;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .elementor-field-group {
+    padding-right: calc(10px/2);
+    padding-left: calc(10px/2);
+    margin-bottom: 10px;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .elementor-form-fields-wrapper {
+    margin-left: calc(-10px/2);
+    margin-right: calc(-10px/2);
+    margin-bottom: -10px;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .elementor-field-group.recaptcha_v3-bottomleft,
+.elementor-125 .elementor-element.elementor-global-186 .elementor-field-group.recaptcha_v3-bottomright {
+    margin-bottom: 0;
+}
+
+body.rtl .elementor-125 .elementor-element.elementor-global-186 .elementor-labels-inline .elementor-field-group>label {
+    padding-left: 8px;
+}
+
+body:not(.rtl) .elementor-125 .elementor-element.elementor-global-186 .elementor-labels-inline .elementor-field-group>label {
+    padding-right: 8px;
+}
+
+body .elementor-125 .elementor-element.elementor-global-186 .elementor-labels-above .elementor-field-group>label {
+    padding-bottom: 8px;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .elementor-field-group>label,
+.elementor-125 .elementor-element.elementor-global-186 .elementor-field-subgroup label {
+    color: var(--e-global-color-accent);
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .elementor-field-group>label {
+    font-family: "Jost", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .elementor-field-type-html {
+    padding-bottom: 0px;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .elementor-field-group .elementor-field,
+.elementor-125 .elementor-element.elementor-global-186 .elementor-field-subgroup label {
+    font-family: "Jost", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .elementor-field-group:not(.elementor-field-type-upload) .elementor-field:not(.elementor-select-wrapper) {
+    background-color: #ffffff;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 19px 19px 19px 19px;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .elementor-field-group .elementor-select-wrapper select {
+    background-color: #ffffff;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 19px 19px 19px 19px;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .elementor-button {
+    font-family: "Jost", Sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px 30px 15px 30px;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .e-form__buttons__wrapper__button-next {
+    color: #ffffff;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .elementor-button[type="submit"] {
+    color: #ffffff;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .elementor-button[type="submit"] svg * {
+    fill: #ffffff;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .e-form__buttons__wrapper__button-previous {
+    color: #ffffff;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .e-form__buttons__wrapper__button-next:hover {
+    color: #ffffff;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .elementor-button[type="submit"]:hover {
+    color: #ffffff;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .elementor-button[type="submit"]:hover svg * {
+    fill: #ffffff;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 .e-form__buttons__wrapper__button-previous:hover {
+    color: #ffffff;
+}
+
+.elementor-125 .elementor-element.elementor-global-186 {
+    --e-form-steps-indicators-spacing: 20px;
+    --e-form-steps-indicator-padding: 30px;
+    --e-form-steps-indicator-inactive-secondary-color: #ffffff;
+    --e-form-steps-indicator-active-secondary-color: #ffffff;
+    --e-form-steps-indicator-completed-secondary-color: #ffffff;
+    --e-form-steps-divider-width: 1px;
+    --e-form-steps-divider-gap: 10px;
+}
+
+.elementor-125 .elementor-element.elementor-element-efaf633>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-125 .elementor-element.elementor-element-ab49665 iframe {
+    height: 350px;
+}
+
+@media(min-width:768px) {
+    .elementor-125 .elementor-element.elementor-element-8b0d710 {
+        width: 49.597%;
+    }
+
+    .elementor-125 .elementor-element.elementor-element-81a404b {
+        width: 24.242%;
+    }
+
+    .elementor-125 .elementor-element.elementor-element-bf85754 {
+        width: 25.438%;
+    }
+
+    .elementor-125 .elementor-element.elementor-element-decdc49 {
+        width: 61.319%;
+    }
+
+    .elementor-125 .elementor-element.elementor-element-6225c69 {
+        width: 38.634%;
+    }
+
+    .elementor-125 .elementor-element.elementor-element-255f613 {
+        width: 64.56%;
+    }
+
+    .elementor-125 .elementor-element.elementor-element-703e48c {
+        width: 35.396%;
+    }
+
+    .elementor-125 .elementor-element.elementor-element-a46c5e7 {
+        width: 41.21%;
+    }
+
+    .elementor-125 .elementor-element.elementor-element-652efff {
+        width: 58.75%;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-125 .elementor-element.elementor-element-f7a71a5 {
+        padding: 30px 0px 0px 0px;
+    }
+
+    .elementor-125 .elementor-element.elementor-element-0be7993 .elementor-heading-title {
+        font-size: 36px;
+    }
+
+    .elementor-125 .elementor-element.elementor-element-ffae297>.elementor-widget-container {
+        margin: 10px 0px 0px 0px;
+    }
+
+    .elementor-125 .elementor-element.elementor-element-bf85754>.elementor-element-populated {
+        margin: -200px 10px 10px 10px;
+        --e-column-margin-right: 10px;
+        --e-column-margin-left: 10px;
+    }
+}
+
+/* Start custom CSS */
+.elementor-form .elementor-button {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* End custom CSS */
