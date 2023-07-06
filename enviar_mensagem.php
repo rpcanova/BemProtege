@@ -4,23 +4,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $nome = $_POST['form_fields_nome2'];
     $telefone = $_POST['form_fields_telefone2'];
     $email = $_POST['form_fields_email2'];
-    $mensagem = $_POST['form_fields_mensagem'];
+    // $mensagem = $_POST['form_fields_mensagem'];
 
     // Configurações do e-mail
-    $to = 'bemprotegevendas@outlook.com'; // Insira o endereço de e-mail de destino aqui
+    $to = 'rpcanova@hotmail.com'; // Insira o endereço de e-mail de destino aqui
     $subject = 'Mensagem';
     $message = "
         <html>
-        <p><b>Nome: </b>$nome</p>
-        <p><b>Telefone: </b>$telefone</p>
-        <p><b>E-mail: </b>$email</b>
-        <p><b>Mensagem: </b>$mensagem</p>
+        <p>Ola, quero fazer uma cotacao</p>
+        <p>Nome: $nome</p>
+        <p>Telefone: $telefone</p>
+        <p>E-mail: $email</p>
         </html>
     ";
 
     // Envia o e-mail
     $headers = "MIME-Version: 1.0\n";
-    $headers .= "Content-type: text/html; charset=iso-8859-1\n";                                                                                                
+    $headers .= "Content-type: text/html; charset=UTF-8\r\n";                                                                                                
     $headers .= "From: $nome <$email>";
 
     if (mail($to, $subject, $message)) {

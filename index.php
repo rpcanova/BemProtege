@@ -60,6 +60,22 @@ include('enviar_mensagem.php');
             })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji)))
         }(window, document, window._wpemojiSettings);
     </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KM5FZ5T');</script>
+    <!-- End Google Tag Manager -->
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -431,10 +447,26 @@ include('enviar_mensagem.php');
     <link rel='stylesheet' id='elementor-icons-shared-0-css' href='wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-icons-fa-solid-css' href='wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-icons-fa-brands-css' href='wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' type='text/css' media='all' />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script src="wp-includes/js/index-2d9b39557cf87d0b.js" defer=""></script>
     <script type='text/javascript' src='wp-includes/js/jquery/jquery.min.js?ver=3.6.3' id='jquery-core-js'></script>
     <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#form-field-telefone').mask('(00) 90000-0000');
+            $('#form-field-telefone2').mask('(00) 90000-0000');
+            $('#form-field-placa').mask('AAA-0000')
+        });
+    </script>
+
+
+
     <script type='text/javascript' id='chaty-front-end-js-extra'>
         /* <![CDATA[ */
         var chaty_settings = {
@@ -533,7 +565,7 @@ include('enviar_mensagem.php');
                     "channel_account_type": "personal",
                     "contact_form_settings": [],
                     "contact_fields": [],
-                    "url": "https:\/\/web.whatsapp.com\/send?phone=5511996069219",
+                    "url": "https:\/\/web.whatsapp.com\/send?phone=5511996069219&text=Ol%C3%A1%2C%20quero%20fazer%20uma%20cota%C3%A7%C3%A3o",
                     "mobile_target": "",
                     "desktop_target": "_blank",
                     "target": "_blank",
@@ -562,83 +594,7 @@ include('enviar_mensagem.php');
     <link rel='shortlink' href='https://bemprotegebahia.com.br/' />
     <link rel="alternate" type="application/json+oembed" href="https://bemprotegebahia.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbemprotegebahia.com.br%2F" />
     <link rel="alternate" type="text/xml+oembed" href="https://bemprotegebahia.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbemprotegebahia.com.br%2F&#038;format=xml" />
-    
-    <!-- HFCM by 99 Robots - Snippet # 1: Leadmi - Contato -->
-    <!-- <script>
-        var enviado = false;
-        jQuery(document).ready(function($) {
-            $(document).on('click', '.elementor-form[name="contato"] [type=submit]', function(e) {
-                var form = $(this).closest('form');
-                var nome = $(form).find('[name="form_fields[nome]"]').val();
-                var telefone = $(form).find('[name="form_fields[telefone]"]').val();
-                var email = $(form).find('[name="form_fields[email]"]').val();
-                var mensagem = $(form).find('[name="form_fields[placa]"]').val();
 
-                if (!enviado && (nome && (telefone || email))) {
-                    $.ajax({
-                        url: 'https://bemprotege.leadmi.com.br/add_lead',
-                        method: 'post',
-                        data: {
-                            nome: nome,
-                            email: email || ' ',
-                            telefone: telefone || ' ',
-                            Unidade: 1,
-                            origem_id: 1,
-                            acao_id: null,
-                            mensagem: mensagem || ' ',
-                        },
-                    }).done(function(response) {
-                        enviado = true;
-                        console.log(response);
-                    });
-                }
-            });
-        });
-    </script> -->
-    <!-- /end HFCM by 99 Robots -->
-    
-    <!-- HFCM by 99 Robots - Snippet # 2: Google Ads - Global -->
-    <!-- Global site tag (gtag.js) - Google Ads: 728859887 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-399795209"></script>
-
-    <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-399795209');
-    </script>
-    <!-- /end HFCM by 99 Robots -->
-    <!-- HFCM by 99 Robots - Snippet # 3: Google Ads - Botões Whatsapp -->
-    <!-- <script>
-        jQuery(document).ready(function($) {
-            $(document).on('click', '.chaty-widget-i, .wpp-pixell', function() {
-
-                // Mostra no console se o botão foi clicado
-                console.log('Clicou no botão');
-
-                function gtag_report_conversion(url) {
-                    var callback = function() {
-                        if (typeof(url) != 'undefined') {
-                            window.location = url;
-                        }
-                    };
-                    gtag('event', 'conversion', {
-                        'send_to': 'AW-728859887/RZxPCOCcjLwDEO-JxtsC',
-                        'event_callback': callback
-                    });
-                    return false;
-                }
-
-                gtag_report_conversion();
-
-            });
-        });
-    </script> -->
-    
     <!-- Event snippet for BP Cotação conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
     <script>
         function gtag_report_conversion(url) {
@@ -655,51 +611,6 @@ include('enviar_mensagem.php');
         }
     </script>
 
-    <!-- /end HFCM by 99 Robots -->
-    <!-- HFCM by 99 Robots - Snippet # 5: Pixell Facebook -->
-    <!-- Meta Pixel Code -->
-    <!-- <script>
-        ! function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '2950259591935489');
-        fbq('track', 'PageView');
-    </script> -->
-
-    <!-- <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2950259591935489&amp;ev=PageView&noscript=1" /></noscript> -->
-    
-    <!-- /end HFCM by 99 Robots -->
-    <!-- HFCM by 99 Robots - Snippet # 6: Google Analytics -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-228489731-1"></script> -->
-    
-    <!-- <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-228489731-1');
-    </script> -->
-    <!-- /end HFCM by 99 Robots -->
     <link rel="icon" href="wp-content/uploads/2022/05/Favicon-150x150.png" sizes="32x32" />
     <link rel="icon" href="wp-content/uploads/2022/05/Favicon.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="wp-content/uploads/2022/05/Favicon.png" />
@@ -726,6 +637,7 @@ include('enviar_mensagem.php');
             </filter>
         </defs>
     </svg>
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
             <filter id="wp-duotone-grayscale">
@@ -739,7 +651,9 @@ include('enviar_mensagem.php');
                 <feComposite in2="SourceGraphic" operator="in" />
             </filter>
         </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    </svg>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
             <filter id="wp-duotone-purple-yellow">
                 <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
@@ -752,7 +666,9 @@ include('enviar_mensagem.php');
                 <feComposite in2="SourceGraphic" operator="in" />
             </filter>
         </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    </svg>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
             <filter id="wp-duotone-blue-red">
                 <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
@@ -765,7 +681,9 @@ include('enviar_mensagem.php');
                 <feComposite in2="SourceGraphic" operator="in" />
             </filter>
         </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    </svg>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
             <filter id="wp-duotone-midnight">
                 <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
@@ -778,7 +696,9 @@ include('enviar_mensagem.php');
                 <feComposite in2="SourceGraphic" operator="in" />
             </filter>
         </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    </svg>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
             <filter id="wp-duotone-magenta-yellow">
                 <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
@@ -791,7 +711,9 @@ include('enviar_mensagem.php');
                 <feComposite in2="SourceGraphic" operator="in" />
             </filter>
         </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    </svg>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
             <filter id="wp-duotone-purple-green">
                 <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
@@ -804,7 +726,9 @@ include('enviar_mensagem.php');
                 <feComposite in2="SourceGraphic" operator="in" />
             </filter>
         </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    </svg>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
             <filter id="wp-duotone-blue-orange">
                 <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
@@ -818,6 +742,12 @@ include('enviar_mensagem.php');
             </filter>
         </defs>
     </svg>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KM5FZ5T"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <div data-elementor-type="header" data-elementor-id="16" class="elementor elementor-16 elementor-location-header">
         <section class="elementor-section elementor-top-section elementor-element elementor-element-125d157 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="125d157" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
             <div class="elementor-container elementor-column-gap-default">
@@ -899,7 +829,7 @@ include('enviar_mensagem.php');
                         <div class="elementor-element elementor-element-b77cadb elementor-align-justify wpp-pixell elementor-widget elementor-widget-button" data-id="b77cadb" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5511996069219');" href="https://api.whatsapp.com/send?phone=5511996069219" target="_blank" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-grow" role="button">
+                                    <a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5511996069219&text=Ol%C3%A1%2C%20quero%20fazer%20uma%20cota%C3%A7%C3%A3o');" href="https://api.whatsapp.com/send?phone=5511996069219&text=Ol%C3%A1%2C%20quero%20fazer%20uma%20cota%C3%A7%C3%A3o" target="_blank" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-grow" role="button">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-icon elementor-align-icon-left">
                                                 <i aria-hidden="true" class="fab fa-whatsapp"></i> </span>
@@ -1287,12 +1217,6 @@ include('enviar_mensagem.php');
                                 </style>
 
                                 <form class="elementor-form" method="post" name="contato" action="enviar_email.php">
-                                    <!-- <input type="hidden" name="post_id" value="125" />
-                                    <input type="hidden" name="form_id" value="576217d" />
-                                    <input type="hidden" name="referer_title" value="" />
-
-                                    <input type="hidden" name="queried_id" value="125" /> -->
-
                                     <div class="elementor-form-fields-wrapper elementor-labels-above">
                                         <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-nome elementor-col-50 elementor-field-required elementor-mark-required">
                                             <label for="form-field-nome" class="elementor-field-label">
@@ -1315,7 +1239,7 @@ include('enviar_mensagem.php');
                                             <input size="1" type="email" name="form_fields_email" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email@email.com.br">
                                         </div>
                                         <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-                                            <button onclick="return gtag_report_conversion('https://bemprotege.org')" type="submit" class="elementor-button elementor-size-sm">
+                                            <button onclick="redirecionarPagina()" type="submit" class="elementor-button elementor-size-sm">
                                                 <span>
                                                     <span class=" elementor-button-icon">
                                                     </span>
@@ -1325,6 +1249,8 @@ include('enviar_mensagem.php');
                                         </div>
                                     </div>
                                 </form>
+
+                                
                             </div>
                         </div>
                     </div>
@@ -1729,10 +1655,15 @@ include('enviar_mensagem.php');
         
         <!-- INÍCIO SECTION DEPOIMENTOS -->
         <section class="elementor-section elementor-top-section elementor-element elementor-element-73cfdaf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="73cfdaf" data-element_type="section">
+            <style>
+                .swiper-container{
+                    cursor: grab;
+                }
+            </style>
             <div class="elementor-container elementor-column-gap-default">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3b54527" data-id="3b54527" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-47df376 elementor-widget elementor-widget-heading" data-id="47df376" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-element elementor-element-b05a221 elementor-testimonial--skin-default elementor-testimonial--layout-image_inline elementor-testimonial--align-center elementor-arrows-yes elementor-pagination-type-bullets elementor-widget elementor-widget-testimonial-carousel" data-id="b05a221" data-element_type="widget" data-settings="{&quot;show_arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}" data-widget_type="testimonial-carousel.default">
                             <div class="elementor-widget-container">
                                 <h2 class="elementor-heading-title elementor-size-default">O QUE FALAM SOBRE A <span style="color: #00dcff;">BEM PROTEGE</span>?</h2>
                             </div>
@@ -1860,7 +1791,7 @@ include('enviar_mensagem.php');
                                         <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-telefone elementor-col-100 elementor-field-required elementor-mark-required">
                                             <label for="form-field-telefone" class="elementor-field-label">
                                                 Telefone </label>
-                                            <input size="1" type="text" name="form_fields_telefone2" id="form-field-telefone" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="(00) 0 0000-0000" required="required" aria-required="true">
+                                            <input size="1" type="text" name="form_fields_telefone2" id="form-field-telefone2" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="(00) 0 0000-0000" required="required" aria-required="true">
                                         </div>
 
                                         <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100">
@@ -1876,7 +1807,7 @@ include('enviar_mensagem.php');
                                         </div> -->
 
                                         <div class="elementor-field-group btn-cotacao elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-                                            <button onclick="return gtag_report_conversion('https://bemprotege.org')" type="submit" class="elementor-button elementor-size-sm">
+                                            <button  onclick ="redirecionarPagina()" type="submit" class="elementor-button elementor-size-sm">
                                                 <span>
                                                     <span class=" elementor-button-icon">
                                                     </span>
@@ -1892,6 +1823,16 @@ include('enviar_mensagem.php');
                 </div>
             </div>
         </section>
+
+        <script>
+            function redirecionarPagina(){
+                // Chama a função de conversão do gtag
+                gtag_report_conversion('http://bemprotege.org');
+
+                // Redireciona para a página de sucesso
+                window.location.href = 'email_enviado.php';
+            }
+        </script>
         <!-- FIM SECTION FORM MENSAGEM -->
 
         <section class="elementor-section elementor-top-section elementor-element elementor-element-7a21dda elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="7a21dda" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
@@ -1984,12 +1925,12 @@ include('enviar_mensagem.php');
         });
     </script>
 
-    <script type='text/javascript' id='elementor-pro-frontend-js-before'>
+    <!-- <script type='text/javascript' id='elementor-pro-frontend-js-before'>
         var ElementorProFrontendConfig = {
             "urls": {
                 "assets": "https:\/\/bemprotegebahia.com.br\/wp-content\/plugins\/elementor-pro\/assets\/",
                 "rest": "https:\/\/bemprotegebahia.com.br\/wp-json\/"
-            },
+            }
             "shareButtonsNetworks": {
                 "facebook": {
                     "title": "Facebook",
@@ -2063,7 +2004,7 @@ include('enviar_mensagem.php');
                 "defaultAnimationUrl": "https:\/\/bemprotegebahia.com.br\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
             }
         };
-    </script>
+    </script> -->
 
     <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.6.5' id='elementor-pro-frontend-js'></script>
     <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
@@ -2192,6 +2133,24 @@ include('enviar_mensagem.php');
     <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.10.0' id='elementor-frontend-js'></script>
     <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.6.5' id='pro-elements-handlers-js'></script>
     <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.6.5' id='e-sticky-js'></script>
+
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+    });
+</script>
 
 </body>
 </html>
