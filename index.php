@@ -465,8 +465,6 @@ include('enviar_mensagem.php');
         });
     </script>
 
-
-
     <script type='text/javascript' id='chaty-front-end-js-extra'>
         /* <![CDATA[ */
         var chaty_settings = {
@@ -608,6 +606,16 @@ include('enviar_mensagem.php');
                 'event_callback': callback
             });
             return false;
+        }
+    </script>
+
+    <script>
+        function redirecionarPagina(){
+            // Chama a função de conversão do gtag
+            gtag_report_conversion('https://bemprotege.org');
+
+            // Redireciona para a página de sucesso
+            window.location.href = 'email_enviado.php';
         }
     </script>
 
@@ -1227,6 +1235,11 @@ include('enviar_mensagem.php');
                                             <label for="form-field-placa" class="elementor-field-label">
                                                 Placa do veículo </label>
                                             <input size="1" type="text" name="form_fields_placa" id="form-field-placa" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="AAA-0000">
+                                            <style>
+                                                #form-field-placa{
+                                                    text-transform: uppercase;
+                                                }
+                                            </style>
                                         </div>
                                         <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-telefone elementor-col-100 elementor-field-required elementor-mark-required">
                                             <label for="form-field-telefone" class="elementor-field-label">
@@ -1239,7 +1252,7 @@ include('enviar_mensagem.php');
                                             <input size="1" type="email" name="form_fields_email" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email@email.com.br">
                                         </div>
                                         <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-                                            <button onclick="redirecionarPagina()" type="submit" class="elementor-button elementor-size-sm">
+                                            <button onclick=" return redirecionarPagina();" type="submit" class="elementor-button elementor-size-sm">
                                                 <span>
                                                     <span class=" elementor-button-icon">
                                                     </span>
@@ -1249,8 +1262,6 @@ include('enviar_mensagem.php');
                                         </div>
                                     </div>
                                 </form>
-
-                                
                             </div>
                         </div>
                     </div>
@@ -1666,6 +1677,12 @@ include('enviar_mensagem.php');
                         <div class="elementor-element elementor-element-b05a221 elementor-testimonial--skin-default elementor-testimonial--layout-image_inline elementor-testimonial--align-center elementor-arrows-yes elementor-pagination-type-bullets elementor-widget elementor-widget-testimonial-carousel" data-id="b05a221" data-element_type="widget" data-settings="{&quot;show_arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}" data-widget_type="testimonial-carousel.default">
                             <div class="elementor-widget-container">
                                 <h2 class="elementor-heading-title elementor-size-default">O QUE FALAM SOBRE A <span style="color: #00dcff;">BEM PROTEGE</span>?</h2>
+                                <style>
+                                    .elementor-heading-title{
+                                        text-align: center;
+                                    }
+                                </style>
+
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-b05a221 elementor-testimonial--skin-default elementor-testimonial--layout-image_inline elementor-testimonial--align-center elementor-arrows-yes elementor-pagination-type-bullets elementor-widget elementor-widget-testimonial-carousel" data-id="b05a221" data-element_type="widget" data-settings="{&quot;show_arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}" data-widget_type="testimonial-carousel.default">
@@ -1740,14 +1757,6 @@ include('enviar_mensagem.php');
                                         </div>
 
                                         <div class="swiper-pagination"></div>
-
-                                        <div class="elementor-swiper-button elementor-swiper-button-prev">
-                                            <i aria-hidden="true" class="eicon-chevron-left"></i> <span class="elementor-screen-only">Previous</span>
-                                        </div>
-
-                                        <div class="elementor-swiper-button elementor-swiper-button-next">
-                                            <i aria-hidden="true" class="eicon-chevron-right"></i> <span class="elementor-screen-only">Next</span>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1768,20 +1777,16 @@ include('enviar_mensagem.php');
                                 <h2 class="elementor-heading-title elementor-size-default">#FALACOMIGOBB</h2>
                             </div>
                         </div>
+
                         <div class="elementor-element elementor-element-87f9d93 elementor-widget elementor-widget-heading" data-id="87f9d93" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <h2 class="elementor-heading-title elementor-size-default">FALE COM NOSSA EQUIPE</h2>
                             </div>
                         </div>
+
                         <div class="elementor-element elementor-element-865cf86 elementor-button-align-center elementor-widget elementor-widget-global elementor-global-186 elementor-widget-form" data-id="865cf86" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
                             <div class="elementor-widget-container">
                                 <form class="elementor-form" method="post" name="contato" action="enviar_mensagem.php">
-                                    <!-- <input type="hidden" name="post_id" value="125" />
-                                    <input type="hidden" name="form_id" value="865cf86" />
-                                    <input type="hidden" name="referer_title" value="" />
-
-                                    <input type="hidden" name="queried_id" value="125" /> -->
-
                                     <div class="elementor-form-fields-wrapper elementor-labels-above">
                                         <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-nome elementor-col-100 elementor-field-required elementor-mark-required">
                                             <label for="form-field-nome" class="elementor-field-label">
@@ -1807,7 +1812,7 @@ include('enviar_mensagem.php');
                                         </div> -->
 
                                         <div class="elementor-field-group btn-cotacao elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-                                            <button  onclick ="redirecionarPagina()" type="submit" class="elementor-button elementor-size-sm">
+                                            <button  onclick ="return redirecionarPagina();" type="submit" class="elementor-button elementor-size-sm">
                                                 <span>
                                                     <span class=" elementor-button-icon">
                                                     </span>
@@ -1823,16 +1828,6 @@ include('enviar_mensagem.php');
                 </div>
             </div>
         </section>
-
-        <script>
-            function redirecionarPagina(){
-                // Chama a função de conversão do gtag
-                gtag_report_conversion('http://bemprotege.org');
-
-                // Redireciona para a página de sucesso
-                window.location.href = 'email_enviado.php';
-            }
-        </script>
         <!-- FIM SECTION FORM MENSAGEM -->
 
         <section class="elementor-section elementor-top-section elementor-element elementor-element-7a21dda elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="7a21dda" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
