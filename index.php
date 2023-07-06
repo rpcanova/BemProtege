@@ -1676,9 +1676,9 @@ include('enviar_mensagem.php');
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-b05a221 elementor-testimonial--skin-default elementor-testimonial--layout-image_inline elementor-testimonial--align-center elementor-arrows-yes elementor-pagination-type-bullets elementor-widget elementor-widget-testimonial-carousel" data-id="b05a221" data-element_type="widget" data-settings="{&quot;show_arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}" data-widget_type="testimonial-carousel.default">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">O QUE FALAM SOBRE A <span style="color: #00dcff;">BEM PROTEGE</span>?</h2>
+                                <h2 class="depoimentos-h2 elementor-heading-title elementor-size-default">O QUE FALAM SOBRE A <span style="color: #00dcff;">BEM PROTEGE</span>?</h2>
                                 <style>
-                                    .elementor-heading-title{
+                                     .depoimentos-h2{
                                         text-align: center;
                                     }
                                 </style>
