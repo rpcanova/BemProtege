@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // $mensagem = $_POST['form_fields_mensagem'];
 
     // Configurações do e-mail
-    $to = 'rpcanova@hotmail.com'; // Insira o endereço de e-mail de destino aqui
+    $to = 'bemprotegevendas@outlook.com'; // Insira o endereço de e-mail de destino aqui
     $subject = 'Cotação de veículo';
     $message = "
         Olá, quero fazer uma cotação

@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $telefone = $_POST['form_fields_telefone'];
     $email = $_POST['form_fields_email'];
     // Configurações do e-mail
-    $to = 'rpcanova@hotmail.com'; // Substitua pelo seu endereço de e-mail
+    $to = 'bemprotegevendas@outlook.com'; // Substitua pelo seu endereço de e-mail
     $subject = 'Cotação de Veículo';
     $message = "
         <html>
