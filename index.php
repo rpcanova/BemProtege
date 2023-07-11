@@ -461,9 +461,14 @@ include('enviar_mensagem.php');
         $(document).ready(function() {
             $('#form-field-telefone').mask('(00) 90000-0000');
             $('#form-field-telefone2').mask('(00) 90000-0000');
-            $('#form-field-placa').mask('AAA-0000')
+            $('#form-field-placa').inputmask({
+                mask: 'AAA-0*00',
+                definitions: {
+
+                }
+            })
         });
-    </script>
+    </>
 
     <script type='text/javascript' id='chaty-front-end-js-extra'>
         /* <![CDATA[ */
