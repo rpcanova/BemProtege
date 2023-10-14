@@ -786,8 +786,10 @@ include('enviar_mensagem.php');
                                         vertical-align: middle;
                                         display: inline-block
                                     }
-                                </style> <a href="#">
-                                    <img width="800" height="262" src="wp-content/uploads/2022/05/Logo-Bem-Protege-1024x335.png" class="attachment-large size-large wp-image-24" alt="" loading="lazy" srcset="https://bemprotegebahia.com.br/wp-content/uploads/2022/05/Logo-Bem-Protege-1024x335.png 1024w, https://bemprotegebahia.com.br/wp-content/uploads/2022/05/Logo-Bem-Protege-300x98.png 300w, https://bemprotegebahia.com.br/wp-content/uploads/2022/05/Logo-Bem-Protege-768x251.png 768w, https://bemprotegebahia.com.br/wp-content/uploads/2022/05/Logo-Bem-Protege-1536x502.png 1536w, https://bemprotegebahia.com.br/wp-content/uploads/2022/05/Logo-Bem-Protege-2048x670.png 2048w" sizes="(max-width: 800px) 100vw, 800px" /> </a>
+                                </style>
+                                <a href="#">
+                                    <img width="800" height="262" src="wp-content/uploads/2022/05/Logo-Bem-Protege-1024x335.png" class="attachment-large size-large wp-image-24" alt="" loading="lazy" srcset="wp-content/uploads/2022/05/Logo-Bem-Protege-1024x335.png 1024w, wp-content/uploads/2022/05/Logo-Bem-Protege-300x98.png 300w, wp-content/uploads/2022/05/Logo-Bem-Protege-768x251.png 768w, wp-content/uploads/2022/05/Logo-Bem-Protege-1536x502.png 1536w, https://bemprotegebahia.com.br/wp-content/uploads/2022/05/Logo-Bem-Protege-2048x670.png 2048w" sizes="(max-width: 800px) 100vw, 800px" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -813,6 +815,7 @@ include('enviar_mensagem.php');
                                         <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-22"><a href="#contato" aria-current="page" class="elementor-item elementor-item-anchor">Contato</a></li>
                                     </ul>
                                 </nav>
+
                                 <div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
                                     <i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i> <span class="elementor-screen-only">Menu</span>
                                 </div>
@@ -837,6 +840,7 @@ include('enviar_mensagem.php');
                         </div>
                     </div>
                 </div>
+
                 <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-037aae5" data-id="037aae5" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-b77cadb elementor-align-justify wpp-pixell elementor-widget elementor-widget-button" data-id="b77cadb" data-element_type="widget" data-widget_type="button.default">
@@ -902,17 +906,17 @@ include('enviar_mensagem.php');
                                         font-size: 59px
                                     }
                                 </style>
-                                <h2 class="elementor-heading-title elementor-size-default">A PROTEÇÃO VEICULAR DO BRASIL</h2>
+                                <h2 class="elementor-heading-title elementor-size-default">O SEGURO VEICULAR DO BRASIL</h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-1488438 elementor-widget elementor-widget-heading" data-id="1488438" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">Proteção veicular</h2>
+                                <h2 class="elementor-heading-title elementor-size-default">Seguro veicular</h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-0be7993 elementor-widget elementor-widget-heading" data-id="0be7993" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">fácil, rápida e sem burocracia</h2>
+                                <h2 class="elementor-heading-title elementor-size-default">fácil, rápido e sem burocracia</h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-b9d50bf elementor-widget elementor-widget-heading" data-id="b9d50bf" data-element_type="widget" data-widget_type="heading.default">
@@ -948,6 +952,7 @@ include('enviar_mensagem.php');
                                 <h2 class="elementor-heading-title elementor-size-default">SIMULAÇÃO RÁPIDA</h2>
                             </div>
                         </div>
+                        
                         <div class="elementor-element elementor-element-576217d elementor-button-align-center elementor-widget elementor-widget-global elementor-global-309 elementor-widget-form" data-id="576217d" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
                             <div class="elementor-widget-container">
                                 <style>
@@ -1240,6 +1245,7 @@ include('enviar_mensagem.php');
                                             <label for="form-field-placa" class="elementor-field-label">
                                                 Placa do veículo </label>
                                             <input size="1" type="text" name="form_fields_placa" id="form-field-placa" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="AAA-0000">
+                                            
                                             <style>
                                                 #form-field-placa{
                                                     text-transform: uppercase;
@@ -1280,7 +1286,7 @@ include('enviar_mensagem.php');
             <div id="protecao-veicular" class="px-5 lg:px-0 pt-5 pb-7 lg:py-20 bg-gray-200 opacity-100 text-center lg:-mt-16">
                 <div class="lg:container text-center">
                     <div class="flex flex-col space-y-1 text-center lg:my-8">
-                        <h2 class="text-2xl lg:text-3xl font-bold headline mb-3  mx-auto">Proteção veicular para <span>todos os perfis</span></h2>
+                        <h2 class="text-2xl lg:text-3xl font-bold headline mb-3  mx-auto">Seguro veicular para <span>todos os perfis</span></h2>
                     </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full px-0 lg:px-3 mt-5 lg:mt-10 mb-0 md:px-0 mx-auto">
                     <div class="bg-white rounded-2xl overflow-hidden">
@@ -1293,7 +1299,7 @@ include('enviar_mensagem.php');
                                 <div class="w-1/2 lg:w-auto">
                                     <p class="flex items-center space-x-2 bg-blue-100 text-blue-900 text-xs px-4 py-1 rounded-2xl mb-1">
                                         <img src="wp-content/uploads/icons/icon-bp.svg" alt="Brazil mask" class="h-3"/>
-                                        <span>PROTEÇÃO VEICULAR BP</span>
+                                        <span>SEGURO VEICULAR BP</span>
                                     </p>
                                     <h3 class="text-xl md:text-lg lg:text-2xl font-bold mb-2 mt-2">CARROS</h3>
                                 </div>
@@ -1340,7 +1346,7 @@ include('enviar_mensagem.php');
                                 <div class="w-1/2 lg:w-auto">
                                     <p class="flex items-center space-x-2 bg-blue-100 text-blue-900 text-xs px-4 py-1 rounded-2xl mb-1">
                                         <img src="wp-content/uploads/icons/icon-bp.svg" alt="Brazil mask" class="h-3"/>
-                                        <span>PROTEÇÃO VEICULAR BP</span>
+                                        <span>SEGURO VEICULAR BP</span>
                                     </p>
                                     <h3 class="text-xl md:text-lg lg:text-2xl font-bold mb-2 mt-2">MOTOS</h3>
                                 </div>
@@ -1387,7 +1393,7 @@ include('enviar_mensagem.php');
                                 <div class="w-1/2 lg:w-auto">
                                     <p class="flex items-center space-x-2 bg-blue-100 text-blue-900 text-xs px-4 py-1 rounded-2xl mb-1">
                                         <img src="wp-content/uploads/icons/icon-bp.svg" alt="Brazil mask" class="h-3"/>
-                                        <span>PROTEÇÃO VEICULAR BP</span>
+                                        <span>SEGURO VEICULAR BP</span>
                                     </p>
                                     <h3 class="text-xl md:text-lg lg:text-2xl font-bold mb-2 mt-2">UTILITÁRIOS</h3>
                                 </div>
@@ -1434,7 +1440,7 @@ include('enviar_mensagem.php');
                                 <div class="w-1/2 lg:w-auto">
                                     <p class="flex items-center space-x-2 bg-blue-100 text-blue-900 text-xs px-4 py-1 rounded-2xl mb-1">
                                         <img src="wp-content/uploads/icons/icon-bp.svg" alt="Brazil mask" class="h-3"/>
-                                        <span>PROTEÇÃO VEICULAR BP</span>
+                                        <span>SEGURO VEICULAR BP</span>
                                     </p>
                                     <h3 class="text-xl md:text-lg lg:text-2xl font-bold mb-2 mt-2">CAMINHÕES</h3>
                                 </div>
@@ -1481,7 +1487,7 @@ include('enviar_mensagem.php');
         <div class="lg:container px-5 lg:px-0 py-5 lg:pt-10 opacity-100 text-center" id="beneficios">
             <div class=" px-0 text-center">
                 <div class="flex flex-col space-y-1 text-center lg:my-8">
-                    <h2 class="text-2xl lg:text-3xl font-bold headline mb-3  mx-auto max-w-xl">Não tenha imprevistos, tenha a <span>proteção veicular</span> da Bem Protege</h2>
+                    <h2 class="text-2xl lg:text-3xl font-bold headline mb-3  mx-auto max-w-xl">Não tenha imprevistos, tenha o <span>seguro veicular</span> da Bem Protege</h2>
                     <p class="text-xl max-w-lg mx-auto ">Temos uma cobertura completa para colisão, furto, roubo e muito mais!</p><a href="#beneficios" class="text-tbblue-500 hover:text-tbblue-100 transition space-x-2 items-center inline-flex w-full md:w-auto group justify-center "><span class="text-xl font-semibold">Confira todos os benefícios</span><i class="bi-chevron-down text-xl mt-1 text-md group-hover:ml-4 transition-all"></i></a>
                 </div>
                 <div class=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full mb-10 mt-12 md:px-0">
@@ -1652,11 +1658,6 @@ include('enviar_mensagem.php');
                             <li class="flex space-x-2 items-center justify-start w-full ">
                                 <i class="bi-patch-check text-lg text-green-500"></i>
                                 <span>Sem análise ao SPC/SERASA</span>
-                            </li>
-
-                            <li class="flex space-x-2 items-center justify-start w-full ">
-                                <i class="bi-patch-check text-lg text-green-500"></i>
-                                <span>Sem necessidade de carteira de habilitação</span>
                             </li>
                         </ul>
 

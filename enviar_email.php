@@ -6,6 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $placa = $_POST['form_fields_placa'];
     $telefone = $_POST['form_fields_telefone'];
     $email = $_POST['form_fields_email'];
+    
     // Configurações do e-mail
     $to = 'bemprotegevendas@outlook.com'; // Substitua pelo seu endereço de e-mail
     $subject = 'Cotação de Veículo';
@@ -30,4 +31,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "<meta http-equiv='refresh' content='5;URL=index.php'>";
     }
 }
-?>
