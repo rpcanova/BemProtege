@@ -10,7 +10,7 @@ include('enviar_mensagem.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
-    <title>Bem Protege &#8211; A proteção veicular que você confia</title>
+    <title>Bem Protege &#8211; O seguro veicular que você confia</title>
     <meta name='robots' content='max-image-preview:large' />
     <link rel="alternate" type="application/rss+xml" title="Feed para Bem Protege &raquo;" href="https://bemprotegebahia.com.br/feed/" />
     <link rel="alternate" type="application/rss+xml" title="Feed de comentários para Bem Protege &raquo;" href="https://bemprotegebahia.com.br/comments/feed/" />
@@ -61,20 +61,22 @@ include('enviar_mensagem.php');
         }(window, document, window._wpemojiSettings);
     </script>
     <!-- Google Tag Manager -->
-    <script>(function(w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-    });
-    var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.async = true;
-    j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-KM5FZ5T');</script>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KM5FZ5T');
+    </script>
     <!-- End Google Tag Manager -->
     <style type="text/css">
         img.wp-smiley,
@@ -92,8 +94,8 @@ include('enviar_mensagem.php');
     </style>
     <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min.css?ver=6.2' type='text/css' media='all' />
     <link rel='stylesheet' id='classic-theme-styles-css' href='wp-includes/css/classic-themes.min.css?ver=6.2' type='text/css' media='all' />
-    <link rel="preload" href="wp-content/themes/hello-elementor/1c922998f0a5bcd6.css" as="style"/>
-    <link rel="stylesheet" href="wp-content/themes/hello-elementor/1c922998f0a5bcd6.css" data-n-g=""/>
+    <link rel="preload" href="wp-content/themes/hello-elementor/1c922998f0a5bcd6.css" as="style" />
+    <link rel="stylesheet" href="wp-content/themes/hello-elementor/1c922998f0a5bcd6.css" data-n-g="" />
     <style id='global-styles-inline-css' type='text/css'>
         body {
             --wp--preset--color--black: #000000;
@@ -463,8 +465,12 @@ include('enviar_mensagem.php');
             $('#form-field-telefone2').mask('(00) 90000-0000');
             $('#form-field-placa').mask('AAA-0B00', {
                 translation: {
-                    'A': { pattern: /[A-Za-z]/ },
-                    'B': { pattern: /[A-Za-z0-9]/}
+                    'A': {
+                        pattern: /[A-Za-z]/
+                    },
+                    'B': {
+                        pattern: /[A-Za-z0-9]/
+                    }
                 }
             });
         });
@@ -615,7 +621,7 @@ include('enviar_mensagem.php');
     </script>
 
     <script>
-        function redirecionarPagina(){
+        function redirecionarPagina() {
             // Chama a função de conversão do gtag
             gtag_report_conversion('https://bemprotege.org');
 
@@ -665,7 +671,7 @@ include('enviar_mensagem.php');
             </filter>
         </defs>
     </svg>
-    
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
             <filter id="wp-duotone-purple-yellow">
@@ -680,7 +686,7 @@ include('enviar_mensagem.php');
             </filter>
         </defs>
     </svg>
-    
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
             <filter id="wp-duotone-blue-red">
@@ -695,7 +701,7 @@ include('enviar_mensagem.php');
             </filter>
         </defs>
     </svg>
-    
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
             <filter id="wp-duotone-midnight">
@@ -710,7 +716,7 @@ include('enviar_mensagem.php');
             </filter>
         </defs>
     </svg>
-    
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
             <filter id="wp-duotone-magenta-yellow">
@@ -725,7 +731,7 @@ include('enviar_mensagem.php');
             </filter>
         </defs>
     </svg>
-    
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
             <filter id="wp-duotone-purple-green">
@@ -740,7 +746,7 @@ include('enviar_mensagem.php');
             </filter>
         </defs>
     </svg>
-    
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
             <filter id="wp-duotone-blue-orange">
@@ -757,8 +763,7 @@ include('enviar_mensagem.php');
     </svg>
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KM5FZ5T"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KM5FZ5T" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <div data-elementor-type="header" data-elementor-id="16" class="elementor elementor-16 elementor-location-header">
@@ -801,13 +806,13 @@ include('enviar_mensagem.php');
                                 <link rel="stylesheet" href="wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css">
                                 <nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
                                     <ul id="menu-1-d28b932" class="elementor-nav-menu">
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-21"><a href="#protecao-veicular" class="elementor-item elementor-item-anchor">Proteção Veicular</a>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-21"><a href="#protecao-veicular" class="elementor-item elementor-item-anchor">Seguro Veicular</a>
                                             <ul class="sub-menu elementor-nav-menu--dropdown">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255"><a href="#protecao-veicular" class="elementor-sub-item">Proteção para Motocicletas</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-254"><a href="#protecao-veicular" class="elementor-sub-item">Proteção para Carros</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253"><a href="#protecao-veicular" class="elementor-sub-item">Proteção para Caminhões</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="#protecao-veicular" class="elementor-sub-item">Proteção para Vans</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="#protecao-veicular" class="elementor-sub-item">Proteção para Pick-ups</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255"><a href="#protecao-veicular" class="elementor-sub-item">Seguro para Motocicletas</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-254"><a href="#protecao-veicular" class="elementor-sub-item">Seguro para Carros</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253"><a href="#protecao-veicular" class="elementor-sub-item">Seguro para Caminhões</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="#protecao-veicular" class="elementor-sub-item">Seguro para Vans</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="#protecao-veicular" class="elementor-sub-item">Seguro para Pick-ups</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="#" class="elementor-item">Cotação</a></li>
@@ -821,13 +826,13 @@ include('enviar_mensagem.php');
                                 </div>
                                 <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
                                     <ul id="menu-2-d28b932" class="elementor-nav-menu">
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-21"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">Proteção Veicular</a>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-21"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">Seguro Veicular</a>
                                             <ul class="sub-menu elementor-nav-menu--dropdown">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255"><a href="#protecao-veicular" class="elementor-sub-item" tabindex="-1">Proteção para Motocicletas</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-254"><a href="#protecao-veicular" class="elementor-sub-item" tabindex="-1">Proteção para Carros</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253"><a href="#protecao-veicular" class="elementor-sub-item" tabindex="-1">Proteção para Caminhões</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="#protecao-veicular" class="elementor-sub-item" tabindex="-1">Proteção para Vans</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="#protecao-veicular" class="elementor-sub-item" tabindex="-1">Proteção para Pick-ups</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255"><a href="#protecao-veicular" class="elementor-sub-item" tabindex="-1">Seguro para Motocicletas</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-254"><a href="#protecao-veicular" class="elementor-sub-item" tabindex="-1">Seguro para Carros</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253"><a href="#protecao-veicular" class="elementor-sub-item" tabindex="-1">Seguro para Caminhões</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="#protecao-veicular" class="elementor-sub-item" tabindex="-1">Seguro para Vans</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="#protecao-veicular" class="elementor-sub-item" tabindex="-1">Seguro para Pick-ups</a></li>
                                             </ul>
                                         </li>
                                         <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-390"><a href="https://bemprotegebahia.com.br/consultor" class="elementor-item" tabindex="-1">Ser Consultor</a></li> -->
@@ -864,7 +869,7 @@ include('enviar_mensagem.php');
     <div data-elementor-type="wp-page" data-elementor-id="125" class="elementor elementor-125">
         <section class="elementor-section elementor-top-section elementor-element elementor-element-f7a71a5 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f7a71a5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/vid-cdn.multiscreensite.com\/a1b80395\/videos\/GGD7vR6S5uLZ3MOUMl4A_Bem+Protege+-+Gusttavo+Lima+Youtube+2-v.mp4&quot;,&quot;background_play_on_mobile&quot;:&quot;yes&quot;,&quot;background_privacy_mode&quot;:&quot;yes&quot;}">
             <div class="elementor-background-video-container">
-                <video class="elementor-background-video-hosted elementor-html5-video" autoplay muted playsinline loop></video>
+                <video class="elementor-background-video-hosted elementor-html5-video" autoplay="" muted="" playsinline="" loop="" src="wp-content\uploads\2022\05\Gusttavo-Lima-Video-Bem-Protege.mp4" style="height: 646px;"></video>
             </div>
             <div class="elementor-background-overlay"></div>
             <div class="elementor-container elementor-column-gap-default">
@@ -952,7 +957,7 @@ include('enviar_mensagem.php');
                                 <h2 class="elementor-heading-title elementor-size-default">SIMULAÇÃO RÁPIDA</h2>
                             </div>
                         </div>
-                        
+
                         <div class="elementor-element elementor-element-576217d elementor-button-align-center elementor-widget elementor-widget-global elementor-global-309 elementor-widget-form" data-id="576217d" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
                             <div class="elementor-widget-container">
                                 <style>
@@ -1245,9 +1250,9 @@ include('enviar_mensagem.php');
                                             <label for="form-field-placa" class="elementor-field-label">
                                                 Placa do veículo </label>
                                             <input size="1" type="text" name="form_fields_placa" id="form-field-placa" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="AAA-0000">
-                                            
+
                                             <style>
-                                                #form-field-placa{
+                                                #form-field-placa {
                                                     text-transform: uppercase;
                                                 }
                                             </style>
@@ -1281,207 +1286,207 @@ include('enviar_mensagem.php');
         </section>
         <!-- FIM FORMULÁRIO -->
 
-        <!-- INÍCIO SECTION PROTEÇÃO VEICULAR -->
+        <!-- INÍCIO SECTION SEGURO VEICULAR -->
         <div class="elementor-section elementor-top-section elementor-element elementor-element-8b3bc6f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8b3bc6f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div id="protecao-veicular" class="px-5 lg:px-0 pt-5 pb-7 lg:py-20 bg-gray-200 opacity-100 text-center lg:-mt-16">
                 <div class="lg:container text-center">
                     <div class="flex flex-col space-y-1 text-center lg:my-8">
                         <h2 class="text-2xl lg:text-3xl font-bold headline mb-3  mx-auto">Seguro veicular para <span>todos os perfis</span></h2>
                     </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full px-0 lg:px-3 mt-5 lg:mt-10 mb-0 md:px-0 mx-auto">
-                    <div class="bg-white rounded-2xl overflow-hidden">
-                        <div class="m-3 lg:m-5 items-center flex flex-col justify-center">
-                            <div class="flex flex-row items-center lg:flex-col ">
-                                <div class="overflow-hidden flex items-start h-[180px] flex items-center">
-                                    <img src="wp-content/uploads/2022/05/carro-image.jpg" alt="Rio" class=" w-auto rounded-t-2xl mb-5"/>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full px-0 lg:px-3 mt-5 lg:mt-10 mb-0 md:px-0 mx-auto">
+                        <div class="bg-white rounded-2xl overflow-hidden">
+                            <div class="m-3 lg:m-5 items-center flex flex-col justify-center">
+                                <div class="flex flex-row items-center lg:flex-col ">
+                                    <div class="overflow-hidden flex items-start h-[180px] flex items-center">
+                                        <img src="wp-content/uploads/2022/05/carro-image.jpg" alt="Rio" class=" w-auto rounded-t-2xl mb-5" />
+                                    </div>
+
+                                    <div class="w-1/2 lg:w-auto">
+                                        <p class="flex items-center space-x-2 bg-blue-100 text-blue-900 text-xs px-4 py-1 rounded-2xl mb-1">
+                                            <img src="wp-content/uploads/icons/icon-bp.svg" alt="Brazil mask" class="h-3" />
+                                            <span>SEGURO VEICULAR BP</span>
+                                        </p>
+                                        <h3 class="text-xl md:text-lg lg:text-2xl font-bold mb-2 mt-2">CARROS</h3>
+                                    </div>
                                 </div>
 
-                                <div class="w-1/2 lg:w-auto">
-                                    <p class="flex items-center space-x-2 bg-blue-100 text-blue-900 text-xs px-4 py-1 rounded-2xl mb-1">
-                                        <img src="wp-content/uploads/icons/icon-bp.svg" alt="Brazil mask" class="h-3"/>
-                                        <span>SEGURO VEICULAR BP</span>
-                                    </p>
-                                    <h3 class="text-xl md:text-lg lg:text-2xl font-bold mb-2 mt-2">CARROS</h3>
-                                </div>
+                                <ul class="text-left w-full space-y-1">
+                                    <li class="flex space-x-2 items-center justify-start w-full">
+                                        <i class="bi-check text-xl text-green-500"></i>
+                                        <span>Carros de passeio</span>
+                                    </li>
+
+                                    <li class="flex space-x-2 items-center justify-start w-full">
+                                        <i class="bi-check text-xl text-green-500"></i>
+                                        <span>Carros de leilão</span>
+                                    </li>
+
+                                    <li class="flex space-x-2 items-center justify-start w-full">
+                                        <i class="bi-check text-xl text-green-500"></i>
+                                        <span>Carros de aplicativo</span>
+                                    </li>
+
+                                    <li class="pl-7 flex items-center justify-start w-full "><span>E mais!</span></li>
+                                </ul>
+
+                                <button onclick="window.location.href='#'" type="button" class="group transition rounded-xl space-x-2 items-center inline-flex py-2 px-4 w-full md:w-auto bg-tbblue-500 hover:bg-tbblue-100 text-white justify-center mt-6">
+                                    <span class="text-md text-md font-semibold">FAZER COTAÇÃO</span>
+                                    <i class="bi-arrow-right text-lg text-md group-hover:ml-4 transition-all"></i>
+                                </button>
+
+                                <a href="#beneficios" class="text-tbblue-500 hover:text-tbblue-100 transition space-x-2 items-center inline-flex w-full md:w-auto group justify-center mt-3">
+                                    <span class="text-md font-semibold">Ver detalhes</span>
+                                    <i class="bi-chevron-down text-lg mt-1 text-md group-hover:ml-4 transition-all"></i>
+                                </a>
                             </div>
-
-                            <ul class="text-left w-full space-y-1">
-                                <li class="flex space-x-2 items-center justify-start w-full">
-                                    <i class="bi-check text-xl text-green-500"></i>
-                                    <span>Carros de passeio</span>
-                                </li>
-
-                                <li class="flex space-x-2 items-center justify-start w-full">
-                                    <i class="bi-check text-xl text-green-500"></i>
-                                    <span>Carros de leilão</span>
-                                </li>
-
-                                <li class="flex space-x-2 items-center justify-start w-full">
-                                    <i class="bi-check text-xl text-green-500"></i>
-                                    <span>Carros de aplicativo</span>
-                                </li>
-                                
-                                <li class="pl-7 flex items-center justify-start w-full "><span>E mais!</span></li>
-                            </ul>
-
-                            <button onclick="window.location.href='#'" type="button" class="group transition rounded-xl space-x-2 items-center inline-flex py-2 px-4 w-full md:w-auto bg-tbblue-500 hover:bg-tbblue-100 text-white justify-center mt-6">
-                                <span class="text-md text-md font-semibold">FAZER COTAÇÃO</span>
-                                <i class="bi-arrow-right text-lg text-md group-hover:ml-4 transition-all"></i>
-                            </button>
-
-                            <a href="#beneficios" class="text-tbblue-500 hover:text-tbblue-100 transition space-x-2 items-center inline-flex w-full md:w-auto group justify-center mt-3">
-                                <span class="text-md font-semibold">Ver detalhes</span>
-                                <i class="bi-chevron-down text-lg mt-1 text-md group-hover:ml-4 transition-all"></i>
-                            </a>
                         </div>
-                    </div>
 
-                    <div class="bg-white rounded-2xl overflow-hidden">
-                        <div class="m-3 lg:m-5 items-center flex flex-col justify-center">
-                            <div class="flex flex-row items-center lg:flex-col ">
-                                <div class="overflow-hidden flex items-start h-[180px] flex items-center">
-                                    <img src="wp-content/uploads/2022/05/moto-image.jpg" alt="Rio" class=" w-auto rounded-t-2xl mb-5"/>
+                        <div class="bg-white rounded-2xl overflow-hidden">
+                            <div class="m-3 lg:m-5 items-center flex flex-col justify-center">
+                                <div class="flex flex-row items-center lg:flex-col ">
+                                    <div class="overflow-hidden flex items-start h-[180px] flex items-center">
+                                        <img src="wp-content/uploads/2022/05/moto-image.jpg" alt="Rio" class=" w-auto rounded-t-2xl mb-5" />
+                                    </div>
+
+                                    <div class="w-1/2 lg:w-auto">
+                                        <p class="flex items-center space-x-2 bg-blue-100 text-blue-900 text-xs px-4 py-1 rounded-2xl mb-1">
+                                            <img src="wp-content/uploads/icons/icon-bp.svg" alt="Brazil mask" class="h-3" />
+                                            <span>SEGURO VEICULAR BP</span>
+                                        </p>
+                                        <h3 class="text-xl md:text-lg lg:text-2xl font-bold mb-2 mt-2">MOTOS</h3>
+                                    </div>
                                 </div>
 
-                                <div class="w-1/2 lg:w-auto">
-                                    <p class="flex items-center space-x-2 bg-blue-100 text-blue-900 text-xs px-4 py-1 rounded-2xl mb-1">
-                                        <img src="wp-content/uploads/icons/icon-bp.svg" alt="Brazil mask" class="h-3"/>
-                                        <span>SEGURO VEICULAR BP</span>
-                                    </p>
-                                    <h3 class="text-xl md:text-lg lg:text-2xl font-bold mb-2 mt-2">MOTOS</h3>
-                                </div>
+                                <ul class="text-left w-full space-y-1">
+                                    <li class="flex space-x-2 items-center justify-start w-full">
+                                        <i class="bi-check text-xl text-green-500"></i>
+                                        <span>Todas as cilindradas</span>
+                                    </li>
+
+                                    <li class="flex space-x-2 items-center justify-start w-full">
+                                        <i class="bi-check text-xl text-green-500"></i>
+                                        <span>Motos de aplicativo</span>
+                                    </li>
+
+                                    <li class="flex space-x-2 items-center justify-start w-full">
+                                        <i class="bi-check text-xl text-green-500"></i>
+                                        <span>Motos de delivery</span>
+                                    </li>
+
+                                    <li class="pl-7 flex items-center justify-start w-full "><span>E mais!</span></li>
+                                </ul>
+
+                                <button onclick="window.location.href='#'" type="button" class="group transition rounded-xl space-x-2 items-center inline-flex py-2 px-4 w-full md:w-auto bg-tbblue-500 hover:bg-tbblue-100 text-white justify-center mt-6">
+                                    <span class="text-md text-md font-semibold">FAZER COTAÇÃO</span>
+                                    <i class="bi-arrow-right text-lg text-md group-hover:ml-4 transition-all"></i>
+                                </button>
+
+                                <a href="#beneficios" class="text-tbblue-500 hover:text-tbblue-100 transition space-x-2 items-center inline-flex w-full md:w-auto group justify-center mt-3">
+                                    <span class="text-md font-semibold">Ver detalhes</span>
+                                    <i class="bi-chevron-down text-lg mt-1 text-md group-hover:ml-4 transition-all"></i>
+                                </a>
                             </div>
-
-                            <ul class="text-left w-full space-y-1">
-                                <li class="flex space-x-2 items-center justify-start w-full">
-                                    <i class="bi-check text-xl text-green-500"></i>
-                                    <span>Todas as cilindradas</span>
-                                </li>
-
-                                <li class="flex space-x-2 items-center justify-start w-full">
-                                    <i class="bi-check text-xl text-green-500"></i>
-                                    <span>Motos de aplicativo</span>
-                                </li>
-
-                                <li class="flex space-x-2 items-center justify-start w-full">
-                                    <i class="bi-check text-xl text-green-500"></i>
-                                    <span>Motos de delivery</span>
-                                </li>
-
-                                <li class="pl-7 flex items-center justify-start w-full "><span>E mais!</span></li>
-                            </ul>
-
-                            <button onclick="window.location.href='#'" type="button" class="group transition rounded-xl space-x-2 items-center inline-flex py-2 px-4 w-full md:w-auto bg-tbblue-500 hover:bg-tbblue-100 text-white justify-center mt-6">
-                                <span class="text-md text-md font-semibold">FAZER COTAÇÃO</span>
-                                <i class="bi-arrow-right text-lg text-md group-hover:ml-4 transition-all"></i>
-                            </button>
-                            
-                            <a href="#beneficios" class="text-tbblue-500 hover:text-tbblue-100 transition space-x-2 items-center inline-flex w-full md:w-auto group justify-center mt-3">
-                                <span class="text-md font-semibold">Ver detalhes</span>
-                                <i class="bi-chevron-down text-lg mt-1 text-md group-hover:ml-4 transition-all"></i>
-                            </a>
                         </div>
-                    </div>
 
-                    <div class="bg-white rounded-2xl overflow-hidden">
-                        <div class="m-3 lg:m-5 items-center flex flex-col justify-center">
-                            <div class="flex flex-row items-center lg:flex-col ">
-                                <div class="overflow-hidden flex items-start h-[180px] flex items-center">
-                                    <img src="wp-content/uploads/2022/05/utilitario-image.jpg" alt="Rio" class=" w-auto rounded-t-2xl mb-5"/>
+                        <div class="bg-white rounded-2xl overflow-hidden">
+                            <div class="m-3 lg:m-5 items-center flex flex-col justify-center">
+                                <div class="flex flex-row items-center lg:flex-col ">
+                                    <div class="overflow-hidden flex items-start h-[180px] flex items-center">
+                                        <img src="wp-content/uploads/2022/05/utilitario-image.jpg" alt="Rio" class=" w-auto rounded-t-2xl mb-5" />
+                                    </div>
+
+                                    <div class="w-1/2 lg:w-auto">
+                                        <p class="flex items-center space-x-2 bg-blue-100 text-blue-900 text-xs px-4 py-1 rounded-2xl mb-1">
+                                            <img src="wp-content/uploads/icons/icon-bp.svg" alt="Brazil mask" class="h-3" />
+                                            <span>SEGURO VEICULAR BP</span>
+                                        </p>
+                                        <h3 class="text-xl md:text-lg lg:text-2xl font-bold mb-2 mt-2">UTILITÁRIOS</h3>
+                                    </div>
                                 </div>
 
-                                <div class="w-1/2 lg:w-auto">
-                                    <p class="flex items-center space-x-2 bg-blue-100 text-blue-900 text-xs px-4 py-1 rounded-2xl mb-1">
-                                        <img src="wp-content/uploads/icons/icon-bp.svg" alt="Brazil mask" class="h-3"/>
-                                        <span>SEGURO VEICULAR BP</span>
-                                    </p>
-                                    <h3 class="text-xl md:text-lg lg:text-2xl font-bold mb-2 mt-2">UTILITÁRIOS</h3>
-                                </div>
+                                <ul class="text-left w-full space-y-1">
+                                    <li class="flex space-x-2 items-center justify-start w-full">
+                                        <i class="bi-check text-xl text-green-500"></i>
+                                        <span>SUV</span>
+                                    </li>
+
+                                    <li class="flex space-x-2 items-center justify-start w-full">
+                                        <i class="bi-check text-xl text-green-500"></i>
+                                        <span>Caminhonetes</span>
+                                    </li>
+
+                                    <li class="flex space-x-2 items-center justify-start w-full">
+                                        <i class="bi-check text-xl text-green-500"></i>
+                                        <span>Vans de carga</span>
+                                    </li>
+
+                                    <li class="pl-7 flex items-center justify-start w-full "><span>E mais!</span></li>
+                                </ul>
+
+                                <button onclick="window.location.href='#'" type="button" class="group transition rounded-xl space-x-2 items-center inline-flex py-2 px-4 w-full md:w-auto bg-tbblue-500 hover:bg-tbblue-100 text-white justify-center mt-6">
+                                    <span class="text-md text-md font-semibold">FAZER COTAÇÃO</span>
+                                    <i class="bi-arrow-right text-lg text-md group-hover:ml-4 transition-all"></i>
+                                </button>
+
+                                <a href="#beneficios" class="text-tbblue-500 hover:text-tbblue-100 transition space-x-2 items-center inline-flex w-full md:w-auto group justify-center mt-3">
+                                    <span class="text-md font-semibold">Ver detalhes</span>
+                                    <i class="bi-chevron-down text-lg mt-1 text-md group-hover:ml-4 transition-all"></i>
+                                </a>
                             </div>
-
-                            <ul class="text-left w-full space-y-1">
-                                <li class="flex space-x-2 items-center justify-start w-full">
-                                    <i class="bi-check text-xl text-green-500"></i>
-                                    <span>SUV</span>
-                                </li>
-
-                                <li class="flex space-x-2 items-center justify-start w-full">
-                                    <i class="bi-check text-xl text-green-500"></i>
-                                    <span>Caminhonetes</span>
-                                </li>
-
-                                <li class="flex space-x-2 items-center justify-start w-full">
-                                    <i class="bi-check text-xl text-green-500"></i>
-                                    <span>Vans de carga</span>
-                                </li>
-
-                                <li class="pl-7 flex items-center justify-start w-full "><span>E mais!</span></li>
-                            </ul>
-
-                            <button onclick="window.location.href='#'" type="button" class="group transition rounded-xl space-x-2 items-center inline-flex py-2 px-4 w-full md:w-auto bg-tbblue-500 hover:bg-tbblue-100 text-white justify-center mt-6">
-                                <span class="text-md text-md font-semibold">FAZER COTAÇÃO</span>
-                                <i class="bi-arrow-right text-lg text-md group-hover:ml-4 transition-all"></i>
-                            </button>
-
-                            <a href="#beneficios" class="text-tbblue-500 hover:text-tbblue-100 transition space-x-2 items-center inline-flex w-full md:w-auto group justify-center mt-3">
-                                <span class="text-md font-semibold">Ver detalhes</span>
-                                <i class="bi-chevron-down text-lg mt-1 text-md group-hover:ml-4 transition-all"></i>
-                            </a>
                         </div>
-                    </div>
 
-                    <div class="bg-white rounded-2xl overflow-hidden">
-                        <div class="m-3 lg:m-5 items-center flex flex-col justify-center">
-                            <div class="flex flex-row items-center lg:flex-col ">
-                                <div class="overflow-hidden flex items-start h-[180px] flex items-center">
-                                    <img src="wp-content/uploads/2022/05/caminhao-image.jpg" alt="Rio" class=" w-auto rounded-t-2xl mb-5"/>
+                        <div class="bg-white rounded-2xl overflow-hidden">
+                            <div class="m-3 lg:m-5 items-center flex flex-col justify-center">
+                                <div class="flex flex-row items-center lg:flex-col ">
+                                    <div class="overflow-hidden flex items-start h-[180px] flex items-center">
+                                        <img src="wp-content/uploads/2022/05/caminhao-image.jpg" alt="Rio" class=" w-auto rounded-t-2xl mb-5" />
+                                    </div>
+
+                                    <div class="w-1/2 lg:w-auto">
+                                        <p class="flex items-center space-x-2 bg-blue-100 text-blue-900 text-xs px-4 py-1 rounded-2xl mb-1">
+                                            <img src="wp-content/uploads/icons/icon-bp.svg" alt="Brazil mask" class="h-3" />
+                                            <span>SEGURO VEICULAR BP</span>
+                                        </p>
+                                        <h3 class="text-xl md:text-lg lg:text-2xl font-bold mb-2 mt-2">CAMINHÕES</h3>
+                                    </div>
                                 </div>
 
-                                <div class="w-1/2 lg:w-auto">
-                                    <p class="flex items-center space-x-2 bg-blue-100 text-blue-900 text-xs px-4 py-1 rounded-2xl mb-1">
-                                        <img src="wp-content/uploads/icons/icon-bp.svg" alt="Brazil mask" class="h-3"/>
-                                        <span>SEGURO VEICULAR BP</span>
-                                    </p>
-                                    <h3 class="text-xl md:text-lg lg:text-2xl font-bold mb-2 mt-2">CAMINHÕES</h3>
-                                </div>
+                                <ul class="text-left w-full space-y-1">
+                                    <li class="flex space-x-2 items-center justify-start w-full">
+                                        <i class="bi-check text-xl text-green-500"></i>
+                                        <span>Cavalo mecâcnico</span>
+                                    </li>
+
+                                    <li class="flex space-x-2 items-center justify-start w-full">
+                                        <i class="bi-check text-xl text-green-500"></i>
+                                        <span>Agregados</span>
+                                    </li>
+
+                                    <li class="flex space-x-2 items-center justify-start w-full">
+                                        <i class="bi-check text-xl text-green-500"></i>
+                                        <span>Implementos</span>
+                                    </li>
+
+                                    <li class="pl-7 flex items-center justify-start w-full "><span>E mais!</span></li>
+                                </ul>
+
+                                <button onclick="window.location.href='#'" type="button" class="group transition rounded-xl space-x-2 items-center inline-flex py-2 px-4 w-full md:w-auto bg-tbblue-500 hover:bg-tbblue-100 text-white justify-center mt-6">
+                                    <span class="text-md text-md font-semibold">FAZER COTAÇÃO</span>
+                                    <i class="bi-arrow-right text-lg text-md group-hover:ml-4 transition-all"></i>
+                                </button>
+
+                                <a href="#beneficios" class="text-tbblue-500 hover:text-tbblue-100 transition space-x-2 items-center inline-flex w-full md:w-auto group justify-center mt-3">
+                                    <span class="text-md font-semibold">Ver detalhes</span>
+                                    <i class="bi-chevron-down text-lg mt-1 text-md group-hover:ml-4 transition-all"></i>
+                                </a>
                             </div>
-
-                            <ul class="text-left w-full space-y-1">
-                                <li class="flex space-x-2 items-center justify-start w-full">
-                                    <i class="bi-check text-xl text-green-500"></i>
-                                    <span>Cavalo mecâcnico</span>
-                                </li>
-
-                                <li class="flex space-x-2 items-center justify-start w-full">
-                                    <i class="bi-check text-xl text-green-500"></i>
-                                    <span>Agregados</span>
-                                </li>
-
-                                <li class="flex space-x-2 items-center justify-start w-full">
-                                    <i class="bi-check text-xl text-green-500"></i>
-                                    <span>Implementos</span>
-                                </li>
-                                
-                                <li class="pl-7 flex items-center justify-start w-full "><span>E mais!</span></li>
-                            </ul>
-
-                            <button onclick="window.location.href='#'" type="button" class="group transition rounded-xl space-x-2 items-center inline-flex py-2 px-4 w-full md:w-auto bg-tbblue-500 hover:bg-tbblue-100 text-white justify-center mt-6">
-                                <span class="text-md text-md font-semibold">FAZER COTAÇÃO</span>
-                                <i class="bi-arrow-right text-lg text-md group-hover:ml-4 transition-all"></i>
-                            </button>
-
-                            <a href="#beneficios" class="text-tbblue-500 hover:text-tbblue-100 transition space-x-2 items-center inline-flex w-full md:w-auto group justify-center mt-3">
-                                <span class="text-md font-semibold">Ver detalhes</span>
-                                <i class="bi-chevron-down text-lg mt-1 text-md group-hover:ml-4 transition-all"></i>
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
             <div class="px-3 md:px-0"></div>
         </div>
-        <!-- FIM SECTION PROTEÇÃO VEICULAR -->
+        <!-- FIM SECTION SEGURO VEICULAR -->
 
         <!-- INÍCIO SECTION BENEFÍCIOS -->
         <div class="lg:container px-5 lg:px-0 py-5 lg:pt-10 opacity-100 text-center" id="beneficios">
@@ -1537,21 +1542,21 @@ include('enviar_mensagem.php');
             <div class=" bg-white">
                 <div class="lg:container px-5 lg:px-3 pb-8 lg:pb-14 md:px-5 md:flex justify-between items-center opacity-100 ">
                     <div class="lg:order-1 lg:w-1/2 flex items-center justify-center">
-                        <img src="wp-content/uploads/2022/05/protecao.png" alt="" class=""/>
+                        <img src="wp-content/uploads/2022/05/protecao.png" alt="" class="" />
                     </div>
 
                     <div class="lg:order-2 lg:w-1/2 space-y-5 md:px-16 pt-5 md:pt-5 pb-5 md:pb-10 lg:mt-5">
                         <div class="flex items-center space-x-4 mb-4">
-                            <img src="wp-content/uploads/icons/icon-head-dash-blue.svg" alt="Brazil mask" class="h-full"/>
-                            <h3 class="text-md font-semibold text-gray-600">PROTEÇÃO PARA TERCEIROS</h3>
+                            <img src="wp-content/uploads/icons/icon-head-dash-blue.svg" alt="Brazil mask" class="h-full" />
+                            <h3 class="text-md font-semibold text-gray-600">SEGURO PARA TERCEIROS</h3>
                         </div>
 
                         <h2 class="text-2xl lg:text-3xl font-bold headline mb-3">
-                            Proteção para terceiros <span>até 100 mil</span>
+                            Seguro para terceiros <span>até 100 mil</span>
                         </h2>
-                        
+
                         <p class="text-md lg:text-xl">
-                            Quer ficar despreocupado com custos inesperados e dar a si mesmo a tranquilidade que você merece? A nossa proteção para terceiros possui cobertura de até 100 mil reais!
+                            Quer ficar despreocupado com custos inesperados e dar a si mesmo a tranquilidade que você merece? O nosso seguro para terceiros possui cobertura de até 100 mil reais!
                         </p>
                         <ul class="text-left w-full space-y-1 mt-4">
                             <li class="flex space-x-2 items-center justify-start w-full ">
@@ -1591,7 +1596,7 @@ include('enviar_mensagem.php');
 
                     <div class="lg:order-1 lg:w-1/2 space-y-5 md:px-16 pt-5 md:pt-5 pb-5 md:pb-10 lg:mt-5">
                         <div class="flex items-center space-x-4 mb-4">
-                            <img src="wp-content/uploads/icons/icon-head-dash-blue.svg" alt="Brazil mask" class="h-full"/>
+                            <img src="wp-content/uploads/icons/icon-head-dash-blue.svg" alt="Brazil mask" class="h-full" />
                             <h3 class="text-md font-semibold text-gray-600">ASSISTÊNCIA 24 HORAS</h3>
                         </div>
 
@@ -1633,7 +1638,7 @@ include('enviar_mensagem.php');
 
                     <div class="lg:order-2 lg:w-1/2 space-y-5 md:px-16 pt-5 md:pt-5 pb-5 md:pb-10 lg:mt-5">
                         <div class="flex items-center space-x-4 mb-4">
-                            <img src="wp-content/uploads/icons/icon-head-dash-blue.svg" alt="Brazil mask" class="h-full"/>
+                            <img src="wp-content/uploads/icons/icon-head-dash-blue.svg" alt="Brazil mask" class="h-full" />
                             <h3 class="text-md font-semibold text-gray-600">CADASTRO FÁCIL</h3>
                         </div>
 
@@ -1669,11 +1674,11 @@ include('enviar_mensagem.php');
                 </div>
             </div>
         </div>
-        
+
         <!-- INÍCIO SECTION DEPOIMENTOS -->
         <section class="elementor-section elementor-top-section elementor-element elementor-element-73cfdaf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="73cfdaf" data-element_type="section">
             <style>
-                .swiper-container{
+                .swiper-container {
                     cursor: grab;
                 }
             </style>
@@ -1684,7 +1689,7 @@ include('enviar_mensagem.php');
                             <div class="elementor-widget-container">
                                 <h2 class="depoimentos-h2 elementor-heading-title elementor-size-default">O QUE FALAM SOBRE A <span style="color: #00dcff;">BEM PROTEGE</span>?</h2>
                                 <style>
-                                     .depoimentos-h2{
+                                    .depoimentos-h2 {
                                         text-align: center;
                                     }
                                 </style>
@@ -1742,23 +1747,23 @@ include('enviar_mensagem.php');
                                                 </div>
                                             </div>
 
-                                                <div class="swiper-slide">
-                                                    <div class="elementor-testimonial">
-                                                        <div class="elementor-testimonial__content">
-                                                            <div class="elementor-testimonial__text">
-                                                                “Precisei de remoção por guincho recentemente e fomos atendidos muito bem, tanto pela equipe do
-                                                                atendimento quanto pelo guincheiro. Sempre que precisei tirar alguma dúvida foi muito fácil conseguir a
-                                                                informação. Existem vários canais de comunicação com a empresa, inclusive o próprio consultor de vendas
-                                                                nos ajuda.”
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-testimonial__footer">
-                                                            <div class="elementor-testimonial__image">
-                                                                <img decoding="async" src="wp-content/uploads/2022/05/isis_correa.png" alt="Isis Correa">
-                                                            </div>
-                                                            <cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Isis Correa</span><span class="elementor-testimonial__title">Associada Bem Protege</span></cite>
+                                            <div class="swiper-slide">
+                                                <div class="elementor-testimonial">
+                                                    <div class="elementor-testimonial__content">
+                                                        <div class="elementor-testimonial__text">
+                                                            “Precisei de remoção por guincho recentemente e fomos atendidos muito bem, tanto pela equipe do
+                                                            atendimento quanto pelo guincheiro. Sempre que precisei tirar alguma dúvida foi muito fácil conseguir a
+                                                            informação. Existem vários canais de comunicação com a empresa, inclusive o próprio consultor de vendas
+                                                            nos ajuda.”
                                                         </div>
                                                     </div>
+                                                    <div class="elementor-testimonial__footer">
+                                                        <div class="elementor-testimonial__image">
+                                                            <img decoding="async" src="wp-content/uploads/2022/05/isis_correa.png" alt="Isis Correa">
+                                                        </div>
+                                                        <cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Isis Correa</span><span class="elementor-testimonial__title">Associada Bem Protege</span></cite>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
 
@@ -1818,7 +1823,7 @@ include('enviar_mensagem.php');
                                         </div> -->
 
                                         <div class="elementor-field-group btn-cotacao elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-                                            <button  onclick ="return redirecionarPagina();" type="submit" class="elementor-button elementor-size-sm">
+                                            <button onclick="return redirecionarPagina();" type="submit" class="elementor-button elementor-size-sm">
                                                 <span>
                                                     <span class=" elementor-button-icon">
                                                     </span>
@@ -1877,16 +1882,16 @@ include('enviar_mensagem.php');
                 <span class="text-md text-md font-semibold">CONTRATAR AGORA</span>
                 <i class="bi-arrow-right text-lg text-md group-hover:ml-4 transition-all"></i>
             </button>
-            
+
             <a href="https://apps.apple.com/br/app/bem-protege/id1437929647" class="bg-gray-100 rounded-xl border-2 border-transparent hover:border-tbblue-500 transition">
-                <img src="wp-content/uploads/icons/icon-apple-store.jpg" alt="Brazil mask" class="w-48 h-auto rounded-xl mx-auto lg:mx-0"/>
+                <img src="wp-content/uploads/icons/icon-apple-store.jpg" alt="Brazil mask" class="w-48 h-auto rounded-xl mx-auto lg:mx-0" />
             </a>
-            
+
             <a href="https://play.google.com/store/apps/details?id=br.com.hinovamobile.bemprotege&amp;hl=pt_BR&amp;gl=US" class="bg-gray-100 rounded-xl border-2 border-transparent hover:border-tbblue-500 transition ">
-                <img src="wp-content/uploads/icons/icon-google-play.jpg" alt="Brazil mask" class="w-48 h-auto rounded-xl mx-auto lg:mx-0"/>
+                <img src="wp-content/uploads/icons/icon-google-play.jpg" alt="Brazil mask" class="w-48 h-auto rounded-xl mx-auto lg:mx-0" />
             </a>
         </div>
-        
+
         <nav class="my-5 lg:my-10">
             <ul class="flex space-x-6 justify-center">
                 <li class="font-bold text-gray-600 hover:text-gray-900">
@@ -2055,22 +2060,23 @@ include('enviar_mensagem.php');
     <script type='text/javascript' src='https://bemprotegebahia.com.br/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.6.5' id='e-sticky-js'></script>
 
     <script>
-    var swiper = new Swiper('.swiper-container', {
-        loop: true,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: false,
-        },
-    });
-</script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
 
 </body>
+
 </html>
