@@ -529,7 +529,7 @@
 
 .elementor .elementor-html5-video {
     -o-object-fit: cover;
-    object-fit: cover
+    object-fit: cover;
 }
 
 .elementor .elementor-background-overlay,

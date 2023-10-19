@@ -869,7 +869,7 @@ include('enviar_mensagem.php');
     <div data-elementor-type="wp-page" data-elementor-id="125" class="elementor elementor-125">
         <section class="elementor-section elementor-top-section elementor-element elementor-element-f7a71a5 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f7a71a5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/vid-cdn.multiscreensite.com\/a1b80395\/videos\/GGD7vR6S5uLZ3MOUMl4A_Bem+Protege+-+Gusttavo+Lima+Youtube+2-v.mp4&quot;,&quot;background_play_on_mobile&quot;:&quot;yes&quot;,&quot;background_privacy_mode&quot;:&quot;yes&quot;}">
             <div class="elementor-background-video-container">
-                <video class="elementor-background-video-hosted elementor-html5-video" autoplay="" muted="" playsinline="" loop="" src="wp-content\uploads\2022\05\Gusttavo-Lima-Video-Bem-Protege.mp4" style="height: 646px;"></video>
+                <video class="elementor-background-video-hosted elementor-html5-video" autoplay="" muted="" playsinline="" loop="" src="wp-content\uploads\2022\05\Gusttavo-Lima-Video-Bem-Protege.mp4" style="width: 100%; height: 100%;"></video>
             </div>
             <div class="elementor-background-overlay"></div>
             <div class="elementor-container elementor-column-gap-default">
